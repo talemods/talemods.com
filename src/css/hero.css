@@ -302,3 +302,26 @@ body.gold-ambient .hero-title-glow {
 .hero-social-btn--discord:hover {
     filter: brightness(1.1);
 }
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 100vh;
+        min-height: 100svh;
+        align-items: flex-start;
+        padding-top: 128px;
+        padding-bottom: 48px;
+    }
+
+    .hero-content {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .hero-title {
+        margin-bottom: 20px;
+    }
+
+    .hero-subtitle {
+        margin-bottom: 32px;
+    }
+}
