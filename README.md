@@ -3,7 +3,7 @@ The official website of TaleMods built with plain HTML, CSS and vanilla JavaScri
 
 ## Design
 
-The interface, which we call **TaleUI**, has been built and refined over a long time, with a look inspired by HarmonyOS.
+The interface, which we call **TaleUI**, has been built and refined over a long time (mostly inspired by the HarmonyOS design language).
 
 ## Contributing a Translation
 
