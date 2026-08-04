@@ -1,0 +1,195 @@
+.page-transition {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #050a0e;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-transition.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+body.page-entering > header,
+body.page-entering > section,
+body.page-entering > footer {
+    animation: pageEnter 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.legal-view {
+    padding: 96px 0 40px;
+}
+
+.legal-view .container {
+    max-width: 820px;
+}
+
+.legal-view-title {
+    font-family: 'Manrope', 'HarmonyOS Sans', sans-serif;
+    font-size: clamp(28px, 6vw, 40px);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.legal-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.legal-author {
+    font-size: 14px;
+    font-weight: 600;
+    color: #53c4ff;
+}
+
+.legal-date {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.legal-section {
+    margin-bottom: 16px;
+    padding: 22px 24px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(187, 187, 188, 0.07), rgba(187, 187, 188, 0.04));
+    box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+        inset 1.8px 3px 0px -2px rgba(255, 255, 255, 0.15),
+        0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.legal-section h2 {
+    font-family: 'Manrope', 'HarmonyOS Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: #fff;
+    letter-spacing: -0.2px;
+}
+
+.legal-section h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 16px 0 10px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.legal-section p {
+    font-size: 14px;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 12px;
+}
+
+.legal-section p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.legal-section li {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.55);
+    padding-left: 18px;
+    position: relative;
+}
+
+.legal-section li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #53c4ff;
+}
+
+.legal-section li strong {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+.legal-section a {
+    color: #53c4ff;
+    text-decoration: none;
+}
+
+.legal-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .legal-section { padding: 18px 18px; }
+    .legal-section h2 { font-size: 16px; }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .hero-grid { animation: none; }
+    .hero-orb {
+        animation: none;
+        filter: blur(50px);
+        opacity: 0.55;
+    }
+    .hero-title-glow {
+        animation: none;
+        filter: none;
+    }
+    .hero-section, .products-section {
+        contain: paint;
+    }
+    html { scroll-behavior: auto; }
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 200ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: both;
+    mix-blend-mode: normal;
+}
+::view-transition-old(root) { animation-name: talemain-fade-out; }
+::view-transition-new(root) { animation-name: talemain-fade-in; }
+@keyframes talemain-fade-out { to { opacity: 0; } }
+@keyframes talemain-fade-in { from { opacity: 0; } }
+
+.route-view { will-change: opacity; }
+
+@media (prefers-reduced-motion: reduce) {
+    @view-transition { navigation: none; }
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation: none !important;
+    }
+}

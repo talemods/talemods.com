@@ -1,0 +1,653 @@
+{
+  "main": {
+    "main_text": "Click on the mod you want to learn more about",
+    "main_text_ru": "Нажмите на мод, чтобы узнать больше",
+    "main_text_tr": "Hakkında daha fazla bilgi edinmek istediğiniz moda tıklayın"
+  },
+  "features": [
+    {
+      "mod_title": "X-Ray",
+      "mod_description": "It instantly locks onto visible enemies and maintains the lock even if they enter bushes or go invisible. It tracks their movement, ensuring you fire at their exact location whenever the button is pressed, until a new target is selected.",
+      "mod_description_tr": "Yanınızdaki düşmanı otomatik olarak hedef belirler ve çalılara girseler bile hareketlerini takip ederek yeni bir hedef seçilene kadar düğmeye her basıldığında tam konumlarına ateş etmenizi sağlar.",
+      "mod_description_ru": "Позволяет стрелять в ближайшего игрока авто атакой, даже если он в кустах или невидимый.",
+      "tags": [
+        "TALE+",
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/24"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Aim Bot",
+      "mod_description": "Auto aims at enemies and gives them an 85% chance of being hit by a bullet.",
+      "mod_description_tr": "Düşmanlara otomatik nişan alır ve %85 oranında isabet şansı verir.",
+      "mod_description_ru": "Авто аимиться в противников с 85% шансом попадения.",
+      "tags": [
+        "TALE+"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Dodge",
+      "mod_description": "Automatically dodges bullets.",
+      "mod_description_tr": "Mermilerden otomatik olarak kaçar.",
+      "mod_description_ru": "Автоматически уклоняется от пуль.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/13",
+        "https://t.me/taleassets/14"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Farm",
+      "mod_description": "It helps you automatically push your low-trophy characters while you leave the screen on and go AFK.",
+      "mod_description_tr": "Ekranı açık bırakıp AFK'ye gittiğinizde düşük kupalı karakterlerinizi otomatik olarak yükseltmenize yardımcı olur.",
+      "mod_description_ru": "Помогает автоматически прокачивать персонажей с малым количеством трофеев, пока вы оставляете экран включённым и уходите в AFK.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/25"
+      ]
+    },
+    {
+      "mod_title": "Speed Exploit",
+      "mod_description": "Boosts brawler's speed.",
+      "mod_description_tr": "Karakterinizi hızlandırır.",
+      "mod_description_ru": "Увеличивает скорость вашего бойца.",
+      "tags": [
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Chain Mortis",
+      "mod_description": "It tries to hit super to atleast 2 enemy.",
+      "mod_description_tr": "Super'ı en az 2 düşmana isabet ettirmeye çalışır.",
+      "mod_description_ru": "Пытается попасть супером минимум по 2 врагам.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Charge",
+      "mod_description": "Auto charging Janet, Hank, and Angelo's range to max range",
+      "mod_description_tr": "Janet, Hank ve Angelo'nun şarjını otomatik doldurur.",
+      "mod_description_ru": "Автоматически заряжает атаки персонажей таких как Джанет, Хэнк и Анджело до максимального расстояния.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/12"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Kill Aura",
+      "mod_description": "When the enemy appears at a certain distance it attacks them without manual aiming",
+      "mod_description_tr": "Düşman belirli bir mesafede göründüğünde, manuel nişan almaya gerek kalmadan otomatik saldırır.",
+      "mod_description_ru": "Автоматически стреляет по противнику если он не стоит за стеной и дистанция совпадает.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/20"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Brawl Ball Indicator",
+      "mod_description": "When you aim the ball at the goal the range indicator turns green",
+      "mod_description_tr": "Topu kaleye nişanladığınızda menzil göstergesi yeşile döner.",
+      "mod_description_ru": "Когда вы наводите мяч на ворота, индикатор дальности становится зелёным.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/26"
+      ]
+    },
+    {
+      "mod_title": "Show Players Trophies",
+      "mod_description": "When you enter a match, each player’s selected brawler trophies and total trophies are displayed above their names.",
+      "mod_description_tr": "Bir maça girdiğinizde her oyuncunun seçili brawler kupaları ve toplam kupaları isimlerinin üzerinde gösterilir.",
+      "mod_description_ru": "При входе в матч над именами игроков отображаются трофеи выбранного бойца и общее количество трофеев.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "VSync Bypass",
+      "mod_description": "It removes the limitation that caps your FPS to your screen’s refresh rate and bypasses all other TPS (tick per second) limits, providing an extremely smooth experience.",
+      "mod_description_tr": "FPS'inizi ekranınızın yenileme hızına sınırlayan kısıtlamayı kaldırır ve diğer tüm TPS (saniyedeki tick) sınırlarını aşarak son derece akıcı bir deneyim sunar.",
+      "mod_description_ru": "Снимает ограничение FPS до частоты обновления экрана и обходит все остальные лимиты TPS (тиков в секунду), обеспечивая исключительно плавный геймплей.",
+      "platform": "android",
+      "tags": [
+        "TALE+",
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Spinner",
+      "mod_description": "Spins automatically.",
+      "mod_description_tr": "Otomatik etrafında döner.",
+      "mod_description_ru": "Крутит тебя автоматически.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/15"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Doug Revive Timer",
+      "mod_description": "When someone gets doug's super, a timer starts until its gone.",
+      "mod_description_tr": "Biri Doug'un super'ını aldığında, etkisi bitene kadar bir sayaç başlar.",
+      "mod_description_ru": "Когда кто-то получает супер Дага, запускается таймер до его окончания.",
+      "tags": [
+        "TALE+"
+      ],
+      "videos": [
+        "https://t.me/taleassets/15"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Camera Switcher",
+      "mod_description": "It allows you to switch camera.",
+      "mod_description_tr": "Kamerayı değiştirmenize yarar.",
+      "mod_description_ru": "Позволяет тебе сменить угол камеры.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/16"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Follow Closest Ally",
+      "mod_description": "It allows you to follow closest ally.",
+      "mod_description_tr": "En yakın takım arkadaşınızı takip eder.",
+      "mod_description_ru": "Автоматически ходит за ближайшим тимейтом.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/18"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Dyna Jump",
+      "mod_description": "It allows you to jump automatically 4 times every time you click the button with Dynamike",
+      "mod_description_tr": "Her butona tıkladığınızda Dynamike ile 4 kez zıplamanıza yarar",
+      "mod_description_ru": "Позволяет тебе прыгнуть 4 раза за динамайка по нажатию кнопки.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/17"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Custom Background",
+      "mod_description": "It allows you to change menu background with your custom image",
+      "mod_description_tr": "Menü arka planını kendi görselinizle değiştirmenize olanak tanır.",
+      "mod_description_ru": "Позволяет сменить фон меню на собственное изображение.",
+      "tags": [
+        "TALE+",
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Custom Music",
+      "mod_description": "It allows you to change music with your custom music (mp3 file etc.)",
+      "mod_description_tr": "Müziği kendi müziğinizle (mp3 dosyası vb.) değiştirmenize olanak tanır.",
+      "mod_description_ru": "Позволяет сменить музыку на свою (файл mp3 и т.д.).",
+      "tags": [
+        "TALE+",
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Hold to Shoot",
+      "mod_description": "It keeps shooting as long as you hold the attack button.",
+      "mod_description_tr": "Saldırı düğmesini basılı tuttuğunuz sürece ateş etmeye devam eder.",
+      "mod_description_ru": "Стреляет само пока ты удерживаешь стрельбу.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/19"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Battle Server Changer",
+      "mod_description": "It allows you to switch to any battle server.",
+      "mod_description_tr": "İstediğiniz savaş sunucusuna geçmenizi sağlar.",
+      "mod_description_ru": "Позволяет изменить сервер боя на любой.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/2"
+      ]
+    },
+    {
+      "mod_title": "Unlock All Emotes",
+      "mod_description": "Allows you to unlock all matcherino winner, world finals (Only visible to you, work in battle) And all skin pins. (Visible to everyone, only works in team chat and club chat.)",
+      "mod_description_tr": "Tüm matcherino, dünya finali pinlerini açmanıza yarar (bunlar sadece size gözükür ve maçta çalışır). Ve tüm skin pinlerini açmanızı yarar (herkese gözükür, sadece takım sohbeti ve kulüp sohbetinde gözükür)",
+      "mod_description_ru": "Позволяет разблокировать все пины победителей Matcherino, финалы мирового чемпионата (видно только тебе, работают в бою) и все значки скинов. (Видны всем, работают только в командном и клубном чатах.)",
+      "tags": [
+        "TALE+",
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/6",
+        "https://t.me/taleassets/7"
+      ]
+    },
+    {
+      "mod_title": "Nani Ulti Mod",
+      "mod_description": "Allows you to move Nani instead of the peep while using her super.",
+      "mod_description_tr": "Nani'nin ultisini kullanırken peep yerine nani'yi kontrol etmenizi sağlar.",
+      "mod_description_ru": "Позволяет тебе передвигать нани вместо ульты нани.",
+      "tags": [
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/22"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Lola Mod",
+      "mod_description": "Allows you to move Lola's clone even when not moving.",
+      "mod_description_tr": "Lola'nın klonunu hareket etmezken bile hareket ettirmeye yarar",
+      "mod_description_ru": "Позволяет тебе двигать клон лолы своим джойстиком не двигаясь самому.",
+      "tags": [
+        "TALE+",
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/21"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Hank Mod",
+      "mod_description": "Spams balloon.",
+      "mod_description_tr": "Balon spamlar.",
+      "mod_description_ru": "Спамит шариком.",
+      "tags": [
+        "TALE+",
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [
+        "https://t.me/taleassets/9"
+      ],
+      "photos": []
+    },
+    {
+      "mod_title": "Skin Changer",
+      "mod_description": "Allows you to unlock the skin you want (only visible to you).",
+      "mod_description_tr": "İstediğiniz skini açmaya yarar (sadece sizde gözükür).",
+      "mod_description_ru": "Позволяет тебе выбирать любые скины на персонажах (видно только тебе).",
+      "tags": [
+        "TALE+",
+        "VISUAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Battle Card Mod",
+      "mod_description": "Allows you to change your battle card to Old Master or Pro Rank.",
+      "mod_description_tr": "Savaş kartınızı Old Master veya Pro Rank'a değiştirmenize yarar.",
+      "mod_description_ru": "Позволяет тебе менять боевую карту на мастера или про.",
+      "tags": [
+        "VISUAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Map Maker Mod",
+      "mod_description": "Unlocks hidden items you can place in your map maker maps.",
+      "mod_description_tr": "Harita Oluşturucuda gizli şeyleri açar.",
+      "mod_description_ru": "Позволяет использовать скрытые предметы в мап мейкере.",
+      "tags": [
+        "EXPLOIT"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Chromatic Name",
+      "mod_description": "Allows your name to be chromatic like having pass.",
+      "mod_description_tr": "Pass'e sahip olmadan isminizi kromatik yapmaya yarar.",
+      "mod_description_ru": "Позволяет тебе ставить хроматический ник как с бравл пассом.",
+      "tags": [
+        "VISUAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Empty Pin",
+      "mod_description": "When you send the 5th pin in a match it sends a blank pin and everyone can see.",
+      "mod_description_tr": "5. pin'i gönderdiğinizde boş bir pin gönderir ve herkes görebilir.",
+      "mod_description_ru": "Когда ты отправляешь 5 пин то вместо него отправляется пустой пин который виден всем.",
+      "tags": [
+        "EXPLOIT",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/3"
+      ]
+    },
+    {
+      "mod_title": "FPS Unlocker/Set FPS",
+      "mod_description": "Helps you get much higher FPS than you normally would in the game (it's automatically enabled). And also you can limit the FPS with the set FPS button.",
+      "mod_description_tr": "Normal oyunda olandan çok daha fazla FPS almanıza yarar (otomatik açık gelir). FPS'i set FPS butonu ile sınırlandırabilirsiniz.",
+      "mod_description_ru": "Позволяет получать фпс больше чем ты получаешь в обычном бравле (оно включено автоматически). Так же можно изменить сколько фпс тебе нужно.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/5"
+      ]
+    },
+    {
+      "mod_title": "Show Enemy Ammo",
+      "mod_description": "It allows you to see enemies ammo bar.",
+      "mod_description_tr": "Düşmanların mermi barını görmenize yarar.",
+      "mod_description_ru": "Позволяет видеть шкалу пуль противников.",
+      "tags": [
+        "TALE+",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Visual BrawlTV",
+      "mod_description": "It allows you to visually adjust the number of spectators.",
+      "mod_description_tr": "İzleyici sayısını görsel olarak ayarlamanıza yarar.",
+      "mod_description_ru": "Позволяет накручивать любое количество наблюдателей визуально.",
+      "tags": [
+        "VISUAL",
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Spectate Matches As Brawltv",
+      "mod_description": "Allows you to watch every match as Brawl TV. It is visible to everyone.",
+      "mod_description_tr": "Her maçı Brawl TV olarak izlemenizi sağlar. Herkese görünürdür.",
+      "mod_description_ru": "Позволяет смотреть любой матч как Brawl TV. Видно всем.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Hide Battling Status",
+      "mod_description": "Hides the 'BATTLING' status.",
+      "mod_description_tr": "'BATTLING' (savaşıyor) durumunu gizler.",
+      "mod_description_ru": "Скрывает статус «BATTLING».",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Leon Clone Highlight",
+      "mod_description": "It shows Leon’s clone in a rainbow color, making it easier to tell apart.",
+      "mod_description_tr": "Leon'un klonunu gökkuşağı renginde gösterir, böylece ayırt etmesi kolaylaşır.",
+      "mod_description_ru": "Показывает клон Леона в радужном цвете, чтобы его было легче отличить.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Character Outline",
+      "mod_description": "Allows you to change the character outline’s opacity, size, and color settings.",
+      "mod_description_tr": "Karakter dış çizgisinin opaklık, boyut ve renk ayarlarını değiştirmenize olanak tanır.",
+      "mod_description_ru": "Позволяет изменять прозрачность, размер и цвет контура персонажа.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Spectate with Tag",
+      "mod_description": "It allows you to spectate anyone with their tags.",
+      "mod_description_tr": "Tagları ile istediğiniz kişinin maçını izlemenize yarar.",
+      "mod_description_ru": "Позволяет наблюдать за кем угодно с ихним айди.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Status Changer",
+      "mod_description": "It allows you to change your team status.",
+      "mod_description_tr": "Takım durumunuzu değiştirmenize yarar.",
+      "mod_description_ru": "Позволяет менять твой игровой статус.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Name Changer",
+      "mod_description": "It allows you to change your name visually.",
+      "mod_description_tr": "İsminizi görsel olarak değiştirmenize yarar.",
+      "mod_description_ru": "Позволяет изменить твой ник визуально.",
+      "tags": [
+        "GENERAL",
+        "VISUAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Font Changer",
+      "mod_description": "It allows you to change game font.",
+      "mod_description_tr": "Oyunun yazı tipini değiştirmenize yarar.",
+      "mod_description_ru": "Позволяет тебе изменить шрифт.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": [
+        "https://t.me/taleassets/4"
+      ]
+    },
+    {
+      "mod_title": "Anti Autoshoot",
+      "mod_description": "Disables Auto Shoot, needing manual aim to attack.",
+      "mod_description_tr": "Oto vuruşu engeller, ateş etmek için manuel aim gerekir.",
+      "mod_description_ru": "Отключает авто атаку.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Anti Autosuper",
+      "mod_description": "Disables Auto Super, needing manual aim to use super.",
+      "mod_description_tr": "Oto ultiyi engeller, ulti kullanmak için manuel aim gerekir.",
+      "mod_description_ru": "Отключает авто атаку ульты.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Hide Ulti Aiming",
+      "mod_description": "Hides super aiming so other cant see when your aiming your super.",
+      "mod_description_tr": "Ulti aim'inizi gizler, bu sayede ulti ile aim alırken kimse sizi göremez.",
+      "mod_description_ru": "Никто не увидит что ты целишся ультой.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Random Spray Spam",
+      "mod_description": "Allows you to automatically spam random sprays in match.",
+      "mod_description_tr": "Maçta rastgele sprey spamı yapmanıza yarar.",
+      "mod_description_ru": "Автоматически спамит рандомными спреями.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Chat Spam",
+      "mod_description": "Allows you to spam texts in team.",
+      "mod_description_tr": "Takımda yazı spamlamanıza yarar.",
+      "mod_description_ru": "Позволяет тебе спамить сообщения в тиме.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "See Selected Brawlers",
+      "mod_description": "Allows you to see enemy brawlers in team.",
+      "mod_description_tr": "Takımda karşı tarafın karakterlerini görmenize yarar.",
+      "mod_description_ru": "Позволяет тебе видеть персонажа противника в дружеском бою.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Anti AFK",
+      "mod_description": "It prevents you from going AFK in the match.",
+      "mod_description_tr": "Maçta AFK olmanızı engeller.",
+      "mod_description_ru": "Тебя не кикнет даже если ты стоишь на месте.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Invite by Tag",
+      "mod_description": "Allows you to invite someone to team using their tag.",
+      "mod_description_tr": "Tag ile istediğiniz birini takıma davet etmenize yarar.",
+      "mod_description_ru": "Позволяет тебе пригласить любого игрока по его айди.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Static Background",
+      "mod_description": "It allows you to use the same background in every menu of the game.",
+      "mod_description_tr": "Oyundaki her menüde aynı arkaplanı kullanır.",
+      "mod_description_ru": "Позволяет видеть один и тот же задний фон в любом меню в игре.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Always Show Chat",
+      "mod_description": "Forces the chat button to always be visible in matches.",
+      "mod_description_tr": "Sohbet butonunun maçlarda her zaman görünür olmasını sağlar.",
+      "mod_description_ru": "Заставляет кнопку чата всегда быть видимой в матчах.",
+      "tags": [
+        "BATTLE"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Auto Play Again",
+      "mod_description": "It allows you to play again automatically every match.",
+      "mod_description_tr": "Her maç otomatik yeniden maç başlatır.",
+      "mod_description_ru": "После катки тебя автоматически перекинет на новую.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "mod_title": "Url Menu",
+      "mod_description": "Web view within the game.",
+      "mod_description_tr": "Oyun içinde web görünümü.",
+      "mod_description_ru": "Позволяет открыть любой сайт в игре.",
+      "tags": [
+        "GENERAL"
+      ],
+      "videos": [],
+      "photos": []
+    }
+  ]
+}

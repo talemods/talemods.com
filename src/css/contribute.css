@@ -1,0 +1,80 @@
+.contribute-page {
+    padding: 100px 0 40px;
+}
+
+.contribute-page .container {
+    max-width: 800px;
+}
+
+.contribute-hero {
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.contribute-title {
+    font-family: 'Manrope', 'HarmonyOS Sans', sans-serif;
+    font-size: clamp(30px, 6.5vw, 46px);
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    line-height: 1.12;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.contribute-lead {
+    font-size: clamp(15px, 2.3vw, 17px);
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 620px;
+    margin: 0 auto 28px;
+}
+
+.contribute-repo-btn {
+    font-size: 16px;
+    padding: 14px 30px;
+    gap: 10px;
+}
+
+.contribute-ways-title {
+    font-family: 'Manrope', 'HarmonyOS Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.contribute-list {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.contribute-q {
+    display: flex;
+    align-items: center;
+}
+
+.contribute-q > span {
+    flex: 1;
+    font-weight: 600;
+    -webkit-text-stroke: 0;
+}
+
+.contribute-cat-icon {
+    flex-shrink: 0;
+    width: 22px;
+    margin-right: 12px;
+    color: #53c4ff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contribute-list .faq-chevron {
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.contribute-list .faq-item.open .faq-answer {
+    max-height: 360px;
+}

@@ -1,0 +1,136 @@
+.navbar {
+    --c-glass: #bbbbbc;
+    --c-light: #fff;
+    --c-dark: #000;
+    --glass-reflex-light: 0.3;
+    --saturation: 150%;
+
+    position: fixed;
+    z-index: 1000;
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    translate: -50%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 64px;
+    padding: 0 6px;
+    border: none;
+    border-radius: 99em;
+    background-color: color-mix(in srgb, var(--c-glass) 10%, transparent);
+    backdrop-filter: blur(8px) saturate(var(--saturation));
+    -webkit-backdrop-filter: blur(8px) saturate(var(--saturation));
+    box-shadow:
+        inset 0 0 0 1px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 10%), transparent),
+        inset 1.8px 3px 0px -2px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 70%), transparent),
+        inset -2px -2px 0px -2px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 60%), transparent),
+        inset -3px -8px 1px -6px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 40%), transparent),
+        inset -0.3px -1px 4px 0px color-mix(in srgb, var(--c-dark) 10%, transparent);
+}
+
+.navbar__filter {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.nav-item-class {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #85888b;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    padding: 10px 9px;
+    border-radius: 99em;
+    cursor: pointer;
+    background-color: transparent;
+    transition: color 0.45s cubic-bezier(0.25, 1, 0.5, 1),
+                background-color 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.nav-item-class:active {
+    opacity: 0.7;
+}
+
+.nav-item-class.active {
+    color: #ffffff;
+}
+
+.nav-icon {
+    font-size: 22px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav-label {
+    max-width: 0;
+    overflow: hidden;
+    min-width: 0;
+    margin-left: 0;
+    line-height: 1;
+    pointer-events: none;
+}
+
+.nav-label > span {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.nav-item-class.active .nav-label {
+    max-width: 220px;
+    margin-left: 8px;
+}
+
+.nav-pill {
+    position: absolute;
+    z-index: 0;
+    top: 8px;
+    bottom: 8px;
+    left: 0;
+    width: 0;
+    border-radius: 99em;
+    background-color: rgba(255, 255, 255, 0.14);
+    opacity: 0;
+    transform: translateX(0);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.5, 1),
+                width 0.4s cubic-bezier(0.3, 1, 0.5, 1),
+                opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.nav-travel {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.5, 1),
+                opacity 0.2s ease;
+    pointer-events: none;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-travel > span {
+    display: inline-block;
+    transition: opacity 0.18s ease;
+}

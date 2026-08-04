@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TaleMods (Tale Stars)</title>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <script>
+        try {
+            const redirectPath = sessionStorage.getItem('redirectPath');
+            if (redirectPath) {
+                sessionStorage.removeItem('redirectPath');
+                if (redirectPath.charAt(0) === '/') history.replaceState(null, '', redirectPath);
+            }
+        } catch {}
+    </script>
+    <link rel="icon" type="image/png" href="images/talestarsnbg.png" />
+    <link rel="apple-touch-icon" href="images/talestarsnbg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+    <meta name="description" content="Tale Stars by TaleMods – the ultimate Brawl Stars mod &amp; cheat. Auto Dodge, Aimbot, X-Ray, Kill Aura, Skin Changer and more. Easy setup, frequent updates." />
+    <meta name="keywords" content="brawl stars mod, brawl stars cheat, tale stars, talestars, tale brawl, talebrawl, auto dodge, aim bot, aimbot, autododge, xray, x-ray, kill aura, killaura" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://talemods.com/" />
+    <meta property="og:title" content="TaleMods (Tale Stars)" />
+    <meta property="og:description" content="The ultimate Brawl Stars mod &amp; cheat: Auto Dodge, Aimbot, X-Ray, Kill Aura, Skin Changer and more. Easy setup, frequent updates." />
+    <meta property="og:url" content="https://talemods.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TaleMods" />
+    <meta property="og:image" content="https://talemods.com/images/talelogofull.jpg" />
+    <meta property="og:image:alt" content="Tale Stars – Brawl Stars Mod" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TaleMods (Tale Stars)" />
+    <meta name="twitter:description" content="Auto Dodge, Aimbot, X-Ray, Kill Aura, Skin Changer and more. Easy setup, frequent updates." />
+    <meta name="twitter:image" content="https://talemods.com/images/talelogofull.jpg" />
+    <meta name="theme-color" content="#53c4ff" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"TaleMods","alternateName":["Tale Stars","TaleStars","Tale Brawl","TaleBrawl"],"url":"https://talemods.com/"},{"@type":"SoftwareApplication","name":"Tale Stars","alternateName":"TaleMods","applicationCategory":"GameApplication","operatingSystem":"Android, iOS","url":"https://talemods.com/","image":"https://talemods.com/images/talelogofull.jpg","description":"Brawl Stars mod and cheat featuring Auto Dodge, Aimbot, X-Ray, Kill Aura, Skin Changer and more.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}]}</script>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://telegram.org" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@100..900&family=Lilita+One&family=Manrope:wght@800&family=Roboto:wght@500&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Outland3r2007/harmonyicons@latest/hmicons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <header id="app-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <div class="tale-logo">
+                        <img src="images/talestarsnbg.png" alt="TaleMods" />
+                    </div>
+                    <h1 class="header-title">TaleMods</h1>
+                </div>
+                <div class="header-right">
+                    <a href="https://t.me/talepaybot" target="_blank" class="liquidButton liquidButton--primary header-marketplace-btn">
+                        <i class="fa-brands fa-telegram"></i>
+                        <span data-i18n="header.marketplace">Open Marketplace</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="home-view" class="route-view">
+
+    <section class="hero-section" id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="hero-particles"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-glow">TALEMODS</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+                Next-level cheats with powerful features, seamless performance, easy setup, constant updates, and a large, active community behind it.
+            </p>
+            <div class="hero-buttons">
+                <button class="liquidButton liquidButton--primary hero-cta" id="hero-cta-btn">
+                    <span data-i18n="hero.callToAction">Our Products</span>
+                    <i class="hm-arrow-down"></i>
+                </button>
+                <div class="hero-socials">
+                    <a href="https://t.me/talebrawl" target="_blank" class="liquidButton hero-social-btn hero-social-btn--telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://discord.gg/tsmod" target="_blank" class="liquidButton hero-social-btn hero-social-btn--discord" aria-label="Discord">
+                        <i class="fa-brands fa-discord"></i>
+                        <img src="images/discord-wordmark.svg" alt="Discord" class="discord-wordmark" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+
+        <div class="product-block" id="tale-stars">
+            <div class="product-block-inner">
+                <div class="product-info-side">
+                    <h2 class="product-title">
+                        <button class="product-title-icon-wrap" id="tale-mode-toggle" type="button" aria-label="Toggle Free / Plus features">
+                            <img src="images/talestarsnbg.png" alt="" class="mode-icon-free" />
+                            <img src="images/taleplus.jpg" alt="" class="mode-icon-plus" />
+                        </button>
+                        <span class="product-title-text">Tale Stars<span class="product-title-plus">+</span></span>
+                    </h2>
+                    <p class="product-desc product-desc-plus" data-i18n="product.description" data-i18n-html>
+                        The ultimate Brawl Stars mod featuring <strong class="desc-feat">Auto Dodge</strong>, <strong class="desc-feat">X-Ray</strong>, <strong class="desc-feat">Aim Bot</strong>, <strong class="desc-feat">Auto Farm</strong>, <strong class="desc-feat">Kill Aura</strong>, <strong class="desc-feat">Skin Changer</strong> and more powerful features.
+                    </p>
+                    <p class="product-desc product-desc-free" data-i18n="product.descriptionFree" data-i18n-html>
+                        The free version of Tale Stars with <strong class="desc-feat">Battle Server Changer</strong>, <strong class="desc-feat">Name Changer</strong>, <strong class="desc-feat">Battle Card Mod</strong>, <strong class="desc-feat">Higher FPS</strong> and more basic features. Upgrade to Plus to unlock the full power.
+                    </p>
+                    <div class="product-actions">
+                        <a href="https://t.me/talebrawl/347" target="_blank" class="liquidButton product-download-btn">
+                            <i class="hm-download-filled"></i>
+                            <span data-i18n="button.download">Download</span>
+                        </a>
+                        <a href="https://t.me/talepaybot" target="_blank" class="liquidButton liquidButton--primary product-buy-btn" id="buy-tale-stars">
+                            <span class="plus-glyph" aria-hidden="true">+</span>
+                            <span class="buy-label" data-i18n="button.buyPlus">Buy Plus</span>
+                        </a>
+                        <a href="/features" class="liquidButton features-link-free">
+                            <i class="hm-public-favorites-filled"></i>
+                            <span data-i18n="button.allFeatures">All Features</span>
+                        </a>
+                        <a href="/features#tale+" class="liquidButton features-link-plus">
+                            <i class="hm-public-favorites-filled"></i>
+                            <span data-i18n="button.plusFeatures">Plus Features</span>
+                        </a>
+                        <a href="/guides" class="liquidButton features-link-guides">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span data-i18n="button.guides">Installation Guides</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="guide-cursor" id="guide-cursor" aria-hidden="true">
+                <img src="images/cursor.svg" alt="" draggable="false" />
+            </div>
+        </div>
+
+    </section>
+
+    <section class="news-section" id="news">
+        <div class="container">
+            <h2 class="section-heading" data-i18n="news.title">Latest Important News</h2>
+            <p class="section-subheading" data-i18n="news.subtitle">Stay up to date with the latest announcements from our Telegram channel.</p>
+            <div class="telegram-embeds" id="news-cards">
+                <div class="news-loading">Loading...</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="faq-heading">
+                <span data-i18n="faq.title1">You ask? We</span>
+                <span class="faq-heading-accent" data-i18n="faq.title2">answer</span>
+            </h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question"><span data-i18n="faq.question1">Do the mods work on iOS</span><span class="faq-qmark" aria-hidden="true"></span><i class="hm-arrow-down faq-chevron"></i></h3>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.answer1">Yes, IPA files are available for supported mods. You can download and install them using your preferred sideloading method.</p>
+                        <a href="/guides/tale-stars-installation-guide/ios" class="liquidButton liquidButton--primary faq-guide-btn">
+                            <i class="fa-brands fa-apple"></i>
+                            <span data-i18n="faq.iosGuideButton">Go to iOS Installation Guide</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question"><span data-i18n="faq.question2">Will I get banned</span><span class="faq-qmark" aria-hidden="true"></span><i class="hm-arrow-down faq-chevron"></i></h3>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.answer2" data-i18n-html>Our mods come with built-in protection, so the risk is very low. Only clearly visible features (like X-Ray Autoshoot) can get you reported by other players, so use those carefully.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question"><span data-i18n="faq.question3">Who should I contact for support</span><span class="faq-qmark" aria-hidden="true"></span><i class="hm-arrow-down faq-chevron"></i></h3>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.answer3" data-i18n-html>You can reach our support team via our official Telegram support bot: <a href="https://t.me/TaleSupportBot" target="_blank">@TaleSupportBot</a></p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question"><span data-i18n="faq.question5">What payment methods are accepted</span><span class="faq-qmark" aria-hidden="true"></span><i class="hm-arrow-down faq-chevron"></i></h3>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.answer5" data-i18n-html>We accept payments via Telegram Stars and cryptocurrency through <a href="https://t.me/talepaybot" target="_blank">our bot</a>. All transactions are processed securely through Telegram's payment infrastructure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <div id="features-view" class="route-view" hidden>
+        <section class="fp-section">
+            <div class="container">
+                <h1 class="fp-title" id="main-text"></h1>
+
+                <div class="fp-search">
+                    <input type="text" class="fp-search-input" id="search-input" data-features-i18n-placeholder="features.searchPlaceholder" placeholder="Search mods...">
+                    <span class="fp-search-icon" aria-hidden="true"></span>
+                    <button class="fp-search-clear" id="search-clear">
+                        <span class="fp-search-clear-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+                <div class="fp-filters">
+                    <button class="fp-filter-btn active" data-tag="ALL" data-features-i18n="features.filterAll">All</button>
+                    <button class="fp-filter-btn" data-tag="TALE+">Tale+</button>
+                    <button class="fp-filter-btn" data-tag="GENERAL" data-features-i18n="features.filterGeneral">General</button>
+                    <button class="fp-filter-btn" data-tag="BATTLE" data-features-i18n="features.filterBattle">Battle</button>
+                    <button class="fp-filter-btn" data-tag="EXPLOIT" data-features-i18n="features.filterExploit">Exploit</button>
+                    <button class="fp-filter-btn" data-tag="VISUAL" data-features-i18n="features.filterVisual">Visual</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="fp-content">
+            <div class="container">
+                <div id="main-page">
+                    <div class="fp-grid" id="features-grid"></div>
+                    <div class="fp-no-results" id="no-results">
+                        <span class="fp-no-results-icon" aria-hidden="true"></span>
+                        <p data-features-i18n="features.noResults">No mods found</p>
+                    </div>
+                </div>
+
+                <div id="feature-detail" class="fp-detail">
+                    <button class="liquidButton fp-back-btn" id="back-btn">
+                        <i class="hm-arrow-left"></i>
+                        <span data-features-i18n="features.back">Back</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <div class="fp-detail-header-row">
+                            <div class="fp-detail-titlewrap">
+                                <h1 class="fp-detail-title" id="detail-title"></h1>
+                                <span id="detail-platform"></span>
+                            </div>
+                            <button class="liquidButton fp-share-btn" id="share-btn">
+                                <i class="hm-public-share"></i>
+                                <span data-features-i18n="features.share">Share</span>
+                            </button>
+                        </div>
+                        <p class="fp-exploit-warning" id="detail-exploit-warning" hidden>This mod has ban risk because its an exploit!</p>
+                        <p class="fp-detail-desc" id="detail-description"></p>
+                    </div>
+                    <div class="fp-media-section" id="videos-section" style="display: none;">
+                        <h2 class="fp-media-title" data-features-i18n="features.videos">Videos</h2>
+                        <div class="fp-media-buttons" id="video-grid"></div>
+                    </div>
+                    <div class="fp-media-section" id="photos-section" style="display: none;">
+                        <h2 class="fp-media-title" data-features-i18n="features.photos">Screenshots</h2>
+                        <div class="fp-media-buttons" id="photo-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="guides-view" class="route-view" hidden>
+        <section class="fp-section guides-spacer"></section>
+
+        <section class="fp-content">
+            <div class="container">
+
+                <div id="guides-list" class="guides-list" hidden>
+                    <button class="guide-card" type="button" data-guide="tale">
+                        <span class="guide-card-icon"><img src="images/talestarsnbg.png" alt="" /></span>
+                        <span class="guide-card-text">
+                            <span class="guide-card-title" data-i18n="guide.tale.title">Tale Stars Installation Guide</span>
+                        </span>
+                        <i class="fa-solid fa-chevron-right guide-card-arrow"></i>
+                    </button>
+                </div>
+
+                <div id="guide-tale" class="guide-detail" hidden>
+                    <button class="liquidButton fp-back-btn" id="guide-tale-back" type="button">
+                        <i class="hm-arrow-left"></i>
+                        <span data-i18n="guide.back">All Guides</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <h1 class="fp-detail-title" data-i18n="guide.tale.title">Tale Stars Installation Guide</h1>
+                        <p class="guide-credit"><span data-i18n="guide.credit">Thanks vsayc and xyzatanas for some guides.</span></p>
+                    </div>
+                    <div class="guide-platforms">
+                        <button class="guide-platform-row" id="guide-platform-android" type="button">
+                            <span class="guide-platform-ico"><img src="images/os-android.png" alt="" /></span>
+                            <span class="guide-platform-text">
+                                <span class="guide-platform-name"><span data-i18n="guide.android">Android</span><span class="guide-platform-you">Your device</span></span>
+                                <span class="guide-platform-method">Direct APK install</span>
+                            </span>
+                            <svg class="guide-platform-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                        <button class="guide-platform-row" id="guide-platform-ios" type="button">
+                            <span class="guide-platform-ico"><img src="images/os-ios.png" alt="" /></span>
+                            <span class="guide-platform-text">
+                                <span class="guide-platform-name"><span data-i18n="guide.ios">iOS</span><span class="guide-platform-you">Your device</span></span>
+                                <span class="guide-platform-method">Sideload (IPA)</span>
+                            </span>
+                            <svg class="guide-platform-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                        <button class="guide-platform-row" id="guide-platform-windows" type="button">
+                            <span class="guide-platform-ico"><img src="images/os-windows.png" alt="" /></span>
+                            <span class="guide-platform-text">
+                                <span class="guide-platform-name"><span>Windows</span><span class="guide-platform-you">Your device</span></span>
+                                <span class="guide-platform-method">BlueStacks emulator</span>
+                            </span>
+                            <svg class="guide-platform-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                        <button class="guide-platform-row" id="guide-platform-macos" type="button">
+                            <span class="guide-platform-ico"><img src="images/os-macos.png" alt="" /></span>
+                            <span class="guide-platform-text">
+                                <span class="guide-platform-name"><span>macOS</span><span class="guide-platform-you">Your device</span></span>
+                                <span class="guide-platform-method">BlueStacks emulator</span>
+                            </span>
+                            <svg class="guide-platform-go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="guide-tale-android" class="guide-detail" hidden>
+                    <button class="liquidButton fp-back-btn" id="guide-android-back" type="button">
+                        <i class="hm-arrow-left"></i>
+                        <span data-i18n="features.back">Back</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <h1 class="fp-detail-title"><i class="fa-brands fa-android guide-title-ico"></i> <span data-i18n="guide.androidGuideTitle">Android Installation Guide</span></h1>
+                    </div>
+                    <div class="guide-steps">
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">1</span>
+                                <h2 class="guide-step-title" data-i18n="guide.android.downloadTitle">Download APK File</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.android.channel" data-i18n-html>Go to the channel where we store download files: <a class="guide-link" href="https://t.me/talefiles" target="_blank" rel="noopener">t.me/talefiles</a></p>
+                            <img src="images/downloadimage1.png" class="guide-image" loading="lazy" />
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">2</span>
+                                <h2 class="guide-step-title" data-i18n="guide.android.installTitle">Installation</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.android.after1">After the file has downloaded, tap the file icon.</p>
+                            <img src="images/downloadimage2.png" class="guide-image guide-image--sm" loading="lazy" />
+                            <p class="guide-step-text" data-i18n="guide.android.after2">If prompted, allow installation from unknown sources, then tap Install and open the application.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="guide-tale-ios" class="guide-detail" hidden>
+                    <button class="liquidButton fp-back-btn" id="guide-ios-back" type="button">
+                        <i class="hm-arrow-left"></i>
+                        <span data-i18n="features.back">Back</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <h1 class="fp-detail-title"><i class="fa-brands fa-apple guide-title-ico"></i> <span data-i18n="guide.iosGuideTitle">iOS Installation Guide</span></h1>
+                    </div>
+                    <div class="guide-tabs" role="tablist">
+                        <button class="guide-tab active" type="button" data-tab="pc" data-i18n="guide.ios.tabPc">Installation with PC</button>
+                        <button class="guide-tab" type="button" data-tab="paid" data-i18n="guide.ios.tabPaid">Paid Method</button>
+                        <button class="guide-tab" type="button" data-tab="paid2" data-i18n="guide.ios.tabPaid2">Paid Method 2</button>
+                    </div>
+                    <div class="guide-tab-panel" data-tabpanel="pc">
+                        <div class="guide-note guide-note--red">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <span data-i18n="guide.ios.pc.warning1">Please note that for this guide you'll need a computer and a cable to connect your iPhone to it.</span>
+                        </div>
+                        <div class="guide-note guide-note--yellow">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <span data-i18n="guide.ios.pc.warning2">If you see "App no longer available" after 7 days, reconnect your phone and repeat the installation via Sideloadly to refresh the license.</span>
+                        </div>
+
+                        <div class="guide-steps">
+                            <div class="guide-step-card">
+                                <div class="guide-step-head">
+                                    <span class="guide-step-num">1</span>
+                                    <h2 class="guide-step-title" data-i18n="guide.ios.pc.step1Title">Downloading IPA to PC</h2>
+                                </div>
+                                <p class="guide-step-text" data-i18n="guide.ios.pc.step1Text" data-i18n-html>Go to the channel where we store download files: <a class="guide-link" href="https://t.me/talefiles" target="_blank" rel="noopener">t.me/talefiles</a>. Find the file that ends with <strong>.ipa</strong> and download it.</p>
+                                <img src="images/downloadimage1.png" class="guide-image" loading="lazy" />
+                            </div>
+                            <div class="guide-step-card">
+                                <div class="guide-step-head">
+                                    <span class="guide-step-num">2</span>
+                                    <h2 class="guide-step-title" data-i18n="guide.ios.pc.step2Title">Sideloadly Installation to PC</h2>
+                                </div>
+                                <ul class="guide-list">
+                                    <li data-i18n="guide.ios.pc.step2a" data-i18n-html>Go to <a class="guide-link" href="https://sideloadly.io/" target="_blank" rel="noopener">sideloadly.io</a> and click Download. Open the .exe file and set it up.</li>
+                                    <li data-i18n="guide.ios.pc.step2b">Open Sideloadly.</li>
+                                    <li data-i18n="guide.ios.pc.step2c">Connect your iPhone via USB.</li>
+                                    <li data-i18n="guide.ios.pc.step2d">Select the downloaded .ipa file.</li>
+                                    <li data-i18n="guide.ios.pc.step2e">Enter your Apple ID and sign in.</li>
+                                    <li data-i18n="guide.ios.pc.step2f" data-i18n-html>Click <strong>Start</strong> to begin.</li>
+                                </ul>
+                                <video class="guide-video guide-video--wide" controls playsinline preload="metadata" src="videos/ios-pc-sideloadly.mp4"></video>
+                            </div>
+                            <div class="guide-step-card">
+                                <div class="guide-step-head">
+                                    <span class="guide-step-num">3</span>
+                                    <h2 class="guide-step-title" data-i18n="guide.ios.pc.step3Title">Finishing Installation</h2>
+                                </div>
+                                <p class="guide-step-text" data-i18n="guide.ios.pc.step3Text1">On your iPhone you need to enable Developer Mode before launching.</p>
+                                <p class="guide-step-text" data-i18n="guide.ios.pc.step3Text2" data-i18n-html>Open <strong>Settings → Privacy &amp; Security → Developer Mode</strong>, toggle it On and restart.</p>
+                                <p class="guide-step-text" data-i18n="guide.ios.pc.step3Text3" data-i18n-html>After restarting, open <strong>Settings → General → VPN &amp; Device Management</strong>, select the profile associated with your Apple ID, tap Trust and confirm. The app will now launch.</p>
+                            </div>
+                        </div>
+
+                        <h2 class="guide-troubleshoot-title" data-i18n="guide.ios.pc.troubleshootingTitle">Troubleshooting &amp; Error Fixes</h2>
+                        <div class="guide-accordion">
+                            <div class="guide-acc-item">
+                                <button class="guide-acc-head" type="button">
+                                    <span data-i18n="guide.ios.pc.troubleshooting1Title">Connection Troubleshooting (Driver Fix)</span>
+                                    <i class="fa-solid fa-chevron-down guide-acc-chevron"></i>
+                                </button>
+                                <div class="guide-acc-body" hidden>
+                                    <p class="guide-step-text" data-i18n="guide.ios.pc.troubleshooting1Intro">If Sideloadly shows "No device selected", install the correct drivers:</p>
+                                    <ol class="guide-numlist">
+                                        <li data-i18n="guide.ios.pc.troubleshooting1a" data-i18n-html>Download <a class="guide-link" href="https://www.3u.com/productswin" target="_blank" rel="noopener">3uTools</a></li>
+                                        <li data-i18n="guide.ios.pc.troubleshooting1b">Install and open.</li>
+                                        <li data-i18n="guide.ios.pc.troubleshooting1c">Click Repair Drivers.</li>
+                                        <li data-i18n="guide.ios.pc.troubleshooting1d">Re-open Sideloadly.</li>
+                                    </ol>
+                                    <img src="images/downloadimage11.png" class="guide-image" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="guide-acc-item">
+                                <button class="guide-acc-head" type="button">
+                                    <span data-i18n="guide.ios.pc.troubleshooting2Title">Login Troubleshooting (Login Failed)</span>
+                                    <i class="fa-solid fa-chevron-down guide-acc-chevron"></i>
+                                </button>
+                                <div class="guide-acc-body" hidden>
+                                    <p class="guide-step-text" data-i18n="guide.ios.pc.troubleshooting2Intro">"Login Failed" means a wrong Apple ID password. Reset it on your iPhone:</p>
+                                    <ol class="guide-numlist">
+                                        <li data-i18n="guide.ios.pc.troubleshooting2a" data-i18n-html>Settings → your name → <strong>Sign-In &amp; Security</strong>.</li>
+                                        <li data-i18n="guide.ios.pc.troubleshooting2b">Tap Change Password and follow the steps.</li>
+                                    </ol>
+                                    <img src="images/downloadimage12.png" class="guide-image" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="guide-acc-item">
+                                <button class="guide-acc-head" type="button">
+                                    <span data-i18n="guide.ios.pc.troubleshooting3Title">Account Troubleshooting (Xcode Error)</span>
+                                    <i class="fa-solid fa-chevron-down guide-acc-chevron"></i>
+                                </button>
+                                <div class="guide-acc-body" hidden>
+                                    <p class="guide-step-text" data-i18n="guide.ios.pc.troubleshooting3Intro">An Xcode error means Parental Controls are enabled. Create a new Apple ID with age over 18:</p>
+                                    <ol class="guide-numlist">
+                                        <li data-i18n="guide.ios.pc.troubleshooting3a" data-i18n-html>Settings → your name → <strong>Sign Out</strong>.</li>
+                                        <li data-i18n="guide.ios.pc.troubleshooting3b">Sign in → Create new Apple ID → set birth date over 18.</li>
+                                    </ol>
+                                    <img src="images/downloadimage13.png" class="guide-image" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="guide-acc-item">
+                                <button class="guide-acc-head" type="button">
+                                    <span data-i18n="guide.ios.pc.troubleshooting4Title">Invalid File Error</span>
+                                    <i class="fa-solid fa-chevron-down guide-acc-chevron"></i>
+                                </button>
+                                <div class="guide-acc-body" hidden>
+                                    <p class="guide-step-text" data-i18n="guide.ios.pc.troubleshooting4Text">Click Start in Sideloadly multiple times, or try a different computer.</p>
+                                    <img src="images/downloadimage14.png" class="guide-image" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="guide-acc-item">
+                                <button class="guide-acc-head" type="button">
+                                    <span data-i18n="guide.ios.pc.troubleshooting5Title">Guru Meditation Error</span>
+                                    <i class="fa-solid fa-chevron-down guide-acc-chevron"></i>
+                                </button>
+                                <div class="guide-acc-body" hidden>
+                                    <p class="guide-step-text" data-i18n="guide.ios.pc.troubleshooting5Text">This is a critical conflict. You must use a different computer.</p>
+                                    <img src="images/downloadimage15.png" class="guide-image" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-tab-panel" data-tabpanel="paid" hidden>
+                        <div class="guide-step-card">
+                            <p class="guide-step-text" data-i18n="guide.ios.paid.text1">No computer needed, and you won't have to re-download the app every week.</p>
+                            <p class="guide-step-text" data-i18n="guide.ios.paid.text2">All installation and purchase details are in the video below:</p>
+                            <video class="guide-video" controls playsinline preload="metadata" src="videos/ios-paid.mp4"></video>
+                        </div>
+                    </div>
+                    <div class="guide-tab-panel" data-tabpanel="paid2" hidden>
+                        <div class="guide-steps">
+                            <div class="guide-step-card">
+                                <p class="guide-step-text" data-i18n="guide.ios.paid2.intro">No computer needed, and you won't have to re-download the app every week.</p>
+                            </div>
+                            <div class="guide-step-card">
+                                <div class="guide-step-head">
+                                    <span class="guide-step-num">1</span>
+                                    <h2 class="guide-step-title" data-i18n="guide.ios.paid2.step1Title">Buying Certificate</h2>
+                                </div>
+                                <p class="guide-step-text" data-i18n="guide.ios.paid2.step1Text" data-i18n-html>Go to <a class="guide-link" href="https://applep12.com/" target="_blank" rel="noopener">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email).</p>
+                            </div>
+                            <div class="guide-step-card">
+                                <div class="guide-step-head">
+                                    <span class="guide-step-num">2</span>
+                                    <h2 class="guide-step-title" data-i18n="guide.ios.paid2.step2Title">Installation</h2>
+                                </div>
+                                <ol class="guide-numlist">
+                                    <li data-i18n="guide.ios.paid2.step2a" data-i18n-html>Go to the <a class="guide-link" href="https://t.me/ipasignx" target="_blank" rel="noopener">@ipasignx</a> bot on Telegram.</li>
+                                    <li data-i18n="guide.ios.paid2.step2b" data-i18n-html>Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>.</li>
+                                    <li data-i18n="guide.ios.paid2.step2c">The bot will ask you for the required files. Send them one by one in the requested order.</li>
+                                    <li data-i18n="guide.ios.paid2.step2d" data-i18n-html>Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button.</li>
+                                    <li data-i18n="guide.ios.paid2.step2e" data-i18n-html>Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class="guide-link" href="https://t.me/talefiles" target="_blank" rel="noopener">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>.</li>
+                                    <li data-i18n="guide.ios.paid2.step2f">After a few more minutes, open the link provided by the bot in Safari to install the game.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="guide-tale-windows" class="guide-detail" hidden>
+                    <button class="liquidButton fp-back-btn" id="guide-windows-back" type="button">
+                        <i class="hm-arrow-left"></i>
+                        <span data-i18n="features.back">Back</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <h1 class="fp-detail-title"><span class="guide-win-ico guide-title-ico" aria-hidden="true"></span> <span data-i18n="guide.windowsGuide">Windows Installation Guide (Emulator)</span></h1>
+                    </div>
+                    <div class="guide-steps">
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">1</span>
+                                <h2 class="guide-step-title" data-i18n="guide.macos.step1Title">Download Emulator</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.windows.step1Text1" data-i18n-html>Go to <a class="guide-link" href="https://www.bluestacks.com/download.html" target="_blank" rel="noopener">www.bluestacks.com/download.html</a></p>
+                            <p class="guide-step-text" data-i18n="guide.windows.step1Text2" data-i18n-html>Scroll a little, click <strong>Pie64</strong> Download</p>
+                            <img src="images/downloadimage7.png" class="guide-image" loading="lazy" />
+                            <p class="guide-step-text" data-i18n="guide.windows.step1Text3">And then, open the exe file and install.</p>
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">2</span>
+                                <h2 class="guide-step-title" data-i18n="guide.macos.step2Title">Downloading APK</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.android.channel" data-i18n-html>Go to the channel where we store download files: <a class="guide-link" href="https://t.me/talefiles" target="_blank" rel="noopener">t.me/talefiles</a></p>
+                            <img src="images/downloadimage1.png" class="guide-image" loading="lazy" />
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">3</span>
+                                <h2 class="guide-step-title" data-i18n="guide.windows.step3Title">Installing APK</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.windows.step3Text1">Click the APK icon in BlueStacks, and select the APK file you downloaded from Telegram.</p>
+                            <img src="images/downloadimage8.png" class="guide-image" loading="lazy" />
+                            <p class="guide-step-text" data-i18n="guide.windows.step3Text2">Wait a little, then open Tale Stars and enjoy it!</p>
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">4</span>
+                                <h2 class="guide-step-title"><span data-i18n="guide.fpsTitle">For Higher FPS</span> <span class="guide-extra-tag" data-i18n="guide.extraTag">EXTRA</span></h2>
+                            </div>
+                            <img src="images/downloadimage9.png" class="guide-image" loading="lazy" />
+                            <img src="images/downloadimage10.png" class="guide-image" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="guide-tale-macos" class="guide-detail" hidden>
+                    <button class="liquidButton fp-back-btn" id="guide-macos-back" type="button">
+                        <i class="hm-arrow-left"></i>
+                        <span data-i18n="features.back">Back</span>
+                    </button>
+                    <div class="fp-detail-header">
+                        <h1 class="fp-detail-title"><i class="fa-brands fa-apple guide-title-ico"></i> <span data-i18n="guide.macosGuide">MacOS Installation Guide (Emulator)</span></h1>
+                    </div>
+                    <div class="guide-steps">
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">1</span>
+                                <h2 class="guide-step-title" data-i18n="guide.macos.step1Title">Download Emulator</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.macos.step1Text" data-i18n-html>Go to <a class="guide-link" href="https://www.bluestacks.com/mac" target="_blank" rel="noopener">www.bluestacks.com/mac</a> and click Download Bluestacks.</p>
+                            <img src="images/downloadimage3.png" class="guide-image" loading="lazy" />
+                            <p class="guide-step-text guide-caption" data-i18n="guide.macos.step1Caption">The installation process shows after you click Download Bluestacks</p>
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">2</span>
+                                <h2 class="guide-step-title" data-i18n="guide.macos.step2Title">Downloading APK</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.android.channel" data-i18n-html>Go to the channel where we store download files: <a class="guide-link" href="https://t.me/talefiles" target="_blank" rel="noopener">t.me/talefiles</a></p>
+                            <img src="images/downloadimage1.png" class="guide-image" loading="lazy" />
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">3</span>
+                                <h2 class="guide-step-title" data-i18n="guide.macos.step3Title">Installing APK to the Emulator</h2>
+                            </div>
+                            <p class="guide-step-text" data-i18n="guide.android.after1">After the file has downloaded, tap the file icon.</p>
+                            <img src="images/downloadimage2.png" class="guide-image guide-image--sm" loading="lazy" />
+                            <p class="guide-step-text" data-i18n="guide.macos.step3Drag">And drag the file in the window into the emulator window.</p>
+                            <img src="images/downloadimage4.png" class="guide-image" loading="lazy" />
+                            <p class="guide-step-text" data-i18n="guide.macos.step3Done">And done! Open Tale Stars and enjoy.</p>
+                        </div>
+                        <div class="guide-step-card">
+                            <div class="guide-step-head">
+                                <span class="guide-step-num">4</span>
+                                <h2 class="guide-step-title"><span data-i18n="guide.fpsTitle">For Higher FPS</span> <span class="guide-extra-tag" data-i18n="guide.extraTag">EXTRA</span></h2>
+                            </div>
+                            <img src="images/downloadimage5.png" class="guide-image" loading="lazy" />
+                            <img src="images/downloadimage6.png" class="guide-image" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <div id="contribute-view" class="route-view" hidden>
+        <section class="contribute-page">
+            <div class="container">
+                <div class="contribute-hero">
+                    <h1 class="contribute-title" data-i18n="contribute.title">This website is open source</h1>
+                    <p class="contribute-lead" data-i18n="contribute.lead">The TaleMods website (not the mods or the products) is open source. The front end lives on GitHub, so anyone can read the code, report issues, and help make it better. Pick an area below to get started.</p>
+                    <a href="https://github.com/talemods/talemods.com" target="_blank" rel="noopener" class="liquidButton liquidButton--primary contribute-repo-btn">
+                        <i class="fa-brands fa-github"></i>
+                        <span data-i18n="contribute.repositoryButton">View on GitHub</span>
+                    </a>
+                </div>
+
+                <h2 class="contribute-ways-title" data-i18n="contribute.waysTitle">Ways to contribute</h2>
+                <div class="faq-list contribute-list">
+                    <div class="faq-item">
+                        <h3 class="faq-question contribute-q">
+                            <i class="fa-solid fa-code contribute-cat-icon"></i>
+                            <span data-i18n="contribute.codeTitle">Code</span>
+                            <i class="hm-arrow-down faq-chevron"></i>
+                        </h3>
+                        <div class="faq-answer">
+                            <p data-i18n="contribute.codeDescription">The site is plain HTML, CSS and JavaScript, with no framework and no build step. Fork the repository, make your change, and open a pull request. Bug fixes, performance tweaks, and new sections are all welcome.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question contribute-q">
+                            <i class="fa-solid fa-palette contribute-cat-icon"></i>
+                            <span data-i18n="contribute.designTitle">Design</span>
+                            <i class="hm-arrow-down faq-chevron"></i>
+                        </h3>
+                        <div class="faq-answer">
+                            <p data-i18n="contribute.designDescription">Got an idea to make the interface better? Open an issue with a screenshot or mockup, or send a pull request.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question contribute-q">
+                            <i class="fa-solid fa-language contribute-cat-icon"></i>
+                            <span data-i18n="contribute.translateTitle">Translate</span>
+                            <i class="hm-arrow-down faq-chevron"></i>
+                        </h3>
+                        <div class="faq-answer">
+                            <p data-i18n="contribute.translateDescription">Translations are simple JSON files in the i18n folder. To add a language, copy en.json, translate the values, and register it in languages.json. To fix an existing translation, just edit that language's file and open a pull request.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="privacy-view" class="route-view" hidden>
+        <section class="legal-view">
+            <div class="container">
+                <h1 class="legal-view-title">Privacy Policy</h1>
+    <div class="legal-meta">
+                    <span class="legal-author">@talemods</span>
+                    <span class="legal-date">February 11, 2026</span>
+                </div>
+
+                <section class="legal-section">
+                    <h2>1. Definitions</h2>
+                    <ul>
+                        <li><strong>"The Bot"</strong> refers to the Telegram Bot TalePayBot (@talepaybot), including its services, mini app, features, and related functionality.</li>
+                        <li><strong>"The Mods"</strong> refers to Tale Stars and Tale Royale, including any associated modifications, services, features, or content provided under these names.</li>
+                        <li><strong>"We," "Us," or "Our"</strong> refers to the operator(s) of The Bot and The Mods.</li>
+                        <li><strong>"User," "You," or "Your"</strong> refers to any individual who accesses or uses The Bot or The Mods.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>2. General</h2>
+                    <p>This Privacy Policy is applied together with the <a href="/tos">Terms of Service</a>. This policy explains how our services handle user data. By accessing or using The Bot, The Mods, or any of our services, you agree to this Privacy Policy. We may update this Privacy Policy at any time. Changes become effective once published. Continued use of our services means you accept the new policy.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>3. What Information Do Our Services Collect and How We Use Them?</h2>
+
+                    <h3>3.1. Data collected by the Bot:</h3>
+                    <ul>
+                        <li>Your public Telegram information such as User ID and Username. This is used to link your balance and other data in the bot to you.</li>
+                        <li>Data related to our activation system (activation slots, statuses, usage logs).</li>
+                        <li>The date users started the bot, the date of purchases, and the date of activations.</li>
+                        <li>IP addresses of those who logged into the Mini App: We use an automated rate limiting mechanism to protect the mini app from abuse and excessive requests. As part of this process, IP addresses are temporarily processed in memory to count requests. We do not store mini app IP addresses in a database, and they are automatically cleared after a short period.</li>
+                    </ul>
+
+                    <h3>3.2. Data collected by the Mods:</h3>
+                    <ul>
+                        <li><strong>Device information:</strong> Activations in the Mods are device-based, so your device information, such as model and manufacturer, is used for our activation system. No private device data (such as IMEI) is stored or can be stored within this information.</li>
+                        <li><strong>IP addresses:</strong> Not stored in the database. Only logged temporarily if there is a problem during activation or connection to our servers. This allows us to help users who experience issues and prevent the same problems from happening to others in the future, improving the overall user experience.</li>
+                        <li>Login dates and activation status.</li>
+                        <li>Your game account's public tag starting with #. To help users if any activation-related or server-related issue occurs.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>4. Sharing User Data</h2>
+                    <p>We do not sell user data. Some limited data may be processed by third-party service providers strictly for the purpose of operating our services.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>5. Data Storage</h2>
+                    <ul>
+                        <li>Your data is stored securely, and we take reasonable measures to protect it from unauthorized access or misuse.</li>
+                        <li>We retain user data for as long as necessary to provide and maintain our services.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>6. Payments</h2>
+                    <p>Payments are processed via Telegram Stars or cryptocurrency. We do not collect or store payment or billing information and we do not have access to such data. Payments made via Telegram Stars are processed entirely by Telegram, and we only receive confirmation of successful payment. For cryptocurrency payments, we may have access only to technical transaction data, such as wallet address, transaction ID (TXID), and payment amount.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>7. User Rights</h2>
+                    <p>You may request access, correction, or deletion of your data by contacting us.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>8. Contact</h2>
+                    <p>For any privacy-related inquiries, you can reach us through our <a href="https://t.me/talebrawl" target="_blank">Telegram Channel</a> or by contacting <a href="https://t.me/TaleStarsManager" target="_blank">@TaleStarsManager</a>.</p>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <div id="tos-view" class="route-view" hidden>
+        <section class="legal-view">
+            <div class="container">
+                <h1 class="legal-view-title">Terms of Service</h1>
+    <div class="legal-meta">
+                    <span class="legal-author">@talemods</span>
+                    <span class="legal-date">February 12, 2026</span>
+                </div>
+
+                <section class="legal-section">
+                    <h2>1. Definitions</h2>
+                    <ul>
+                        <li><strong>"The Bot"</strong> refers to the Telegram Bot TalePayBot (@talepaybot), including its services, mini app, features, and related functionality.</li>
+                        <li><strong>"The Mods"</strong> refers to Tale Stars and Tale Royale, including any associated modifications, services, features, or content provided under these names.</li>
+                        <li><strong>"We," "Us," or "Our"</strong> refers to the operator(s) of The Bot and The Mods.</li>
+                        <li><strong>"User," "You," or "Your"</strong> refers to any individual who accesses or uses The Bot or The Mods.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>2. Acceptance of Terms</h2>
+                    <p>These Terms of Service operate together with our <a href="/privacy">Privacy Policy</a>. By accessing or using our services, you agree to these Terms. If you do not agree, you must stop using them immediately. We may update these Terms at any time. Changes become effective once published. Continued use of our services after updates constitutes acceptance of the revised Terms. If any provision of these Terms is found invalid or unenforceable, the remaining provisions remain in full force and effect.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>3. Description of Services</h2>
+                    <ul>
+                        <li>The Bot and Mini App allow Users to: Purchase activation rights or memberships; Activate The Mods on supported devices; Access related features and private Telegram groups where applicable.</li>
+                        <li>The Mods may include both free and paid features.</li>
+                        <li>APK/IPA files are shared publicly via our main channel (@talemods). We do not sell or distribute original game software or official game files. All original games and related content remain the property of their respective owners.</li>
+                        <li>Activations are device-based. Each device may require a separate activation. Activation slots may be limited depending on the purchased plan.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>4. Payments and Refund Policy</h2>
+                    <ul>
+                        <li>All services are digital and considered delivered once activation rights, access, or paid features are granted.</li>
+                        <li>Refunds are only available if supported by the respective third-party payment provider (such as Telegram Stars). We do not control these systems and cannot guarantee refund approval. Cryptocurrency payments are generally irreversible unless explicitly stated otherwise.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>5. Activation System</h2>
+                    <ul>
+                        <li>Activations are provided on an "as is" basis.</li>
+                        <li>We do not guarantee uninterrupted operation, compatibility with all devices or versions, or protection from warnings, restrictions, or bans imposed by game developers.</li>
+                        <li>We reserve the right to modify, reset, revoke, refuse, or limit activations at any time due to technical, legal, or security reasons, including suspected abuse.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2>6. User Responsibilities</h2>
+                    <p>By using our services, you agree that you will:</p>
+                    <ul>
+                        <li>Not bypass activation limits or security mechanisms.</li>
+                        <li>Not reverse engineer, decompile, modify, or tamper with activation systems.</li>
+                        <li>Not redistribute access or engage in fraud, payment abuse, or bad-faith chargebacks.</li>
+                        <li>Not engage in harmful, misleading, defamatory, or bad-faith conduct intended to damage the reputation of The Bot or The Mods or interfere with our services or legitimate business activities.</li>
+                        <li>Comply with Telegram's Terms of Service and all applicable laws in your jurisdiction.</li>
+                    </ul>
+                    <p>Violation of these rules, suspected abuse, fraud, or payment disputes may result in suspension or permanent termination of access to The Bot, The Mods, activations, or related services at our sole discretion, with or without prior notice. Access may be revoked without refund.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>7. Limitation of Liability</h2>
+                    <p>You acknowledge that using game modifications may violate certain game rules or terms and may lead to account suspension, bans, or other penalties. We are not responsible for:</p>
+                    <ul>
+                        <li>Game account bans or restrictions.</li>
+                        <li>Direct, indirect, incidental, or consequential damages.</li>
+                        <li>Downtime, service interruptions, or technical errors.</li>
+                    </ul>
+                    <p>You acknowledge that use of our services involves certain risks.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>8. Intellectual Property</h2>
+                    <p>All trademarks, game names, and related materials belong to their respective owners. We are not affiliated with, endorsed by, or officially connected to any game developer or publisher. The Mods, branding, activation systems, and related materials created by us are our intellectual property and may not be copied, redistributed, or reproduced without permission.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>9. Service Availability</h2>
+                    <p>We may modify, suspend, or discontinue The Bot, The Mods, or any feature at any time for technical, legal, security, or operational reasons. This may include suspension or discontinuation of certain features or services. We cannot guarantee continuous or uninterrupted availability of the services. We are not responsible for failure or delay in performance due to events beyond our reasonable control, including but not limited to force majeure events, platform restrictions, or third-party service outages.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2>10. Contact</h2>
+                    <p>For any inquiries regarding these Terms, you can reach us through our <a href="https://t.me/talebrawl" target="_blank">Telegram Channel</a> or by contacting <a href="https://t.me/TaleStarsManager" target="_blank">@TaleStarsManager</a>.</p>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <div id="notfound-view" class="route-view" hidden>
+        <section class="hero-section nf-section">
+            <div class="hero-bg">
+                <div class="hero-grid"></div>
+                <div class="hero-orb hero-orb-1"></div>
+                <div class="hero-orb hero-orb-2"></div>
+                <div class="hero-orb hero-orb-3"></div>
+                <div class="hero-bg-overlay"></div>
+            </div>
+            <div class="container hero-content nf-content">
+                <div class="nf-code">404</div>
+                <h2 class="nf-title" data-i18n="notFound.title">Page not found</h2>
+                <p class="hero-subtitle nf-msg" data-i18n="notFound.message">The page you are looking for doesn't exist or may have been moved.</p>
+                <div class="hero-buttons">
+                    <a href="/" class="liquidButton liquidButton--primary nf-home">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <span data-i18n="notFound.home">Back to home</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand-col">
+                    <div class="footer-brand">
+                        <span class="footer-brand-name">Tale<span class="footer-brand-mods">Mods</span></span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title" data-i18n="footer.legal">Legal</span>
+                    <a href="/privacy"><span data-i18n="footer.privacy">Privacy Policy</span></a>
+                    <a href="/tos"><span data-i18n="footer.termsOfService">Terms of Service</span></a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title" data-i18n="footer.community">Community</span>
+                    <a href="https://t.me/talebrawl" target="_blank">Telegram</a>
+                    <a href="https://discord.gg/tsmod" target="_blank">Discord</a>
+                    <a href="https://t.me/TaleSupportBot" target="_blank"><span data-i18n="footer.support">Support</span></a>
+                </div>
+                <div class="footer-col" id="footer-languages">
+                    <span class="footer-col-title" data-i18n="footer.language">Language</span>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <span class="footer-copy" data-i18n="footer.copyright">&copy; 2026 TaleMods. All rights reserved.</span>
+            </div>
+            <p class="footer-disclaimer">This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see: Supercell's Fan Content Policy.</p>
+        </div>
+    </footer>
+
+    <nav class="navbar">
+        <span class="nav-pill" aria-hidden="true"></span>
+        <a href="#" class="nav-item nav-item-class active" data-target="home">
+            <div class="nav-icon">
+                <i class="hm-public-home-filled"></i>
+            </div>
+            <span class="nav-label"><span data-i18n="nav.home">Home</span></span>
+        </a>
+        <a href="/features" class="nav-item nav-item-class" data-target="features">
+            <div class="nav-icon">
+                <i class="hm-public-favorites-filled"></i>
+            </div>
+            <span class="nav-label"><span data-i18n="nav.features">Features</span></span>
+        </a>
+        <a href="/guides" class="nav-item nav-item-class" data-target="guides">
+            <div class="nav-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <span class="nav-label"><span data-i18n="nav.guides">Guides</span></span>
+        </a>
+        <a href="/contribute" class="nav-item nav-item-class" data-target="contribute">
+            <div class="nav-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <span class="nav-label"><span data-i18n="nav.contribute">Contribute</span></span>
+        </a>
+        <span class="nav-travel" aria-hidden="true"><span></span></span>
+        <div class="navbar__filter">
+            <svg>
+                <filter id="navbar-glass" primitiveUnits="objectBoundingBox">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="0.04" result="blur"/>
+                    <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glass"/>
+                </filter>
+            </svg>
+        </div>
+    </nav>
+
+    <div class="fp-toast" id="copy-toast" data-features-i18n="features.linkCopied">Link copied!</div>
+    <div class="page-transition" id="page-transition"></div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

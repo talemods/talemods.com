@@ -1,0 +1,392 @@
+{
+  "guide.tale.title": {
+    "en": "Tale Stars Installation Guide",
+    "tr": "Tale Stars Kurulum Rehberi",
+    "ru": "Руководство по установке Tale Stars"
+  },
+  "guide.credit": {
+    "en": "Thanks vsayc and xyzatanas for some guides.",
+    "tr": "Bazı rehberler için vsayc ve xyzatanas'a teşekkürler.",
+    "ru": "Спасибо vsayc и xyzatanas за некоторые руководства."
+  },
+  "guide.back": {
+    "en": "All Guides",
+    "tr": "Tüm Rehberler",
+    "ru": "Все руководства"
+  },
+  "guide.android": {
+    "en": "Android",
+    "tr": "Android",
+    "ru": "Android"
+  },
+  "guide.androidGuideTitle": {
+    "en": "Android Installation Guide",
+    "tr": "Android Kurulum Rehberi",
+    "ru": "Руководство по установке для Android"
+  },
+  "guide.windowsGuide": {
+    "en": "Windows Installation Guide (Emulator)",
+    "tr": "Windows Kurulum Rehberi (Emülatör)",
+    "ru": "Руководство по установке для Windows (эмулятор)"
+  },
+  "guide.macosGuide": {
+    "en": "MacOS Installation Guide (Emulator)",
+    "tr": "MacOS Kurulum Rehberi (Emülatör)",
+    "ru": "Руководство по установке для MacOS (эмулятор)"
+  },
+  "guide.macos.step1Title": {
+    "en": "Download Emulator",
+    "tr": "Emülatörü İndir",
+    "ru": "Скачать эмулятор"
+  },
+  "guide.macos.step1Text": {
+    "en": "Go to <a class=\"guide-link\" href=\"https://www.bluestacks.com/mac\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/mac</a> and click Download Bluestacks.",
+    "tr": "<a class=\"guide-link\" href=\"https://www.bluestacks.com/mac\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/mac</a> adresine gidin ve Download Bluestacks'e tıklayın.",
+    "ru": "Перейдите на <a class=\"guide-link\" href=\"https://www.bluestacks.com/mac\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/mac</a> и нажмите Download Bluestacks."
+  },
+  "guide.macos.step1Caption": {
+    "en": "The installation process shows after you click Download Bluestacks",
+    "tr": "Download Bluestacks'e tıkladıktan sonra kurulum süreci başlar",
+    "ru": "После нажатия Download Bluestacks начнётся процесс установки"
+  },
+  "guide.macos.step2Title": {
+    "en": "Downloading APK",
+    "tr": "APK'yı İndirme",
+    "ru": "Скачивание APK"
+  },
+  "guide.macos.step3Title": {
+    "en": "Installing APK to the Emulator",
+    "tr": "APK'yı Emülatöre Kurma",
+    "ru": "Установка APK в эмулятор"
+  },
+  "guide.macos.step3Drag": {
+    "en": "And drag the file in the window into the emulator window.",
+    "tr": "Ardından dosyayı emülatör penceresine sürükleyin.",
+    "ru": "Затем перетащите файл в окно эмулятора."
+  },
+  "guide.macos.step3Done": {
+    "en": "And done! Open Tale Stars and enjoy.",
+    "tr": "Ve bitti! Tale Stars'ı açın ve keyfini çıkarın.",
+    "ru": "И готово! Откройте Tale Stars и наслаждайтесь."
+  },
+  "guide.fpsTitle": {
+    "en": "For Higher FPS",
+    "tr": "Daha Yüksek FPS İçin",
+    "ru": "Для большего FPS"
+  },
+  "guide.extraTag": {
+    "en": "EXTRA",
+    "tr": "EKSTRA",
+    "ru": "ЭКСТРА"
+  },
+  "guide.windows.step1Text1": {
+    "en": "Go to <a class=\"guide-link\" href=\"https://www.bluestacks.com/download.html\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/download.html</a>",
+    "tr": "<a class=\"guide-link\" href=\"https://www.bluestacks.com/download.html\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/download.html</a> adresine gidin",
+    "ru": "Перейдите на <a class=\"guide-link\" href=\"https://www.bluestacks.com/download.html\" target=\"_blank\" rel=\"noopener\">www.bluestacks.com/download.html</a>"
+  },
+  "guide.windows.step1Text2": {
+    "en": "Scroll a little, click <strong>Pie64</strong> Download",
+    "tr": "Biraz aşağı kaydırıp <strong>Pie64</strong> Download'a tıklayın",
+    "ru": "Прокрутите немного вниз и нажмите <strong>Pie64</strong> Download"
+  },
+  "guide.windows.step1Text3": {
+    "en": "And then, open the exe file and install.",
+    "tr": "Ardından exe dosyasını açıp kurun.",
+    "ru": "Затем откройте exe-файл и установите."
+  },
+  "guide.windows.step3Title": {
+    "en": "Installing APK",
+    "tr": "APK Kurma",
+    "ru": "Установка APK"
+  },
+  "guide.windows.step3Text1": {
+    "en": "Click the APK icon in BlueStacks, and select the APK file you downloaded from Telegram.",
+    "tr": "BlueStacks'te APK simgesine tıklayın ve Telegram'dan indirdiğiniz APK dosyasını seçin.",
+    "ru": "Нажмите на значок APK в BlueStacks и выберите APK-файл, скачанный из Telegram."
+  },
+  "guide.windows.step3Text2": {
+    "en": "Wait a little, then open Tale Stars and enjoy it!",
+    "tr": "Biraz bekleyin, sonra Tale Stars'ı açın ve keyfini çıkarın!",
+    "ru": "Немного подождите, затем откройте Tale Stars и наслаждайтесь!"
+  },
+  "guide.ios": {
+    "en": "iOS",
+    "tr": "iOS",
+    "ru": "iOS"
+  },
+  "guide.iosGuideTitle": {
+    "en": "iOS Installation Guide",
+    "tr": "iOS Kurulum Rehberi",
+    "ru": "Руководство по установке для iOS"
+  },
+  "guide.ios.tabPc": {
+    "en": "Installation with PC",
+    "tr": "PC ile Kurulum",
+    "ru": "Установка через ПК"
+  },
+  "guide.ios.tabPaid": {
+    "en": "Paid Method",
+    "tr": "Ücretli Yöntem",
+    "ru": "Платный способ"
+  },
+  "guide.ios.paid.text1": {
+    "en": "No computer needed, and you won't have to re-download the app every week.",
+    "tr": "Bilgisayar gerekmez ve uygulamayı her hafta tekrar indirmenize gerek kalmaz.",
+    "ru": "Компьютер не нужен, и не придётся переустанавливать приложение каждую неделю."
+  },
+  "guide.ios.paid.text2": {
+    "en": "All installation and purchase details are in the video below:",
+    "tr": "Tüm kurulum ve satın alım detayları aşağıdaki videoda bulunuyor:",
+    "ru": "Все детали установки и покупки смотрите в видео ниже:"
+  },
+  "guide.ios.tabPaid2": {
+    "en": "Paid Method 2",
+    "tr": "Paid Method 2",
+    "ru": "Paid Method 2"
+  },
+  "guide.ios.paid2.intro": {
+    "en": "No computer needed, and you won't have to re-download the app every week.",
+    "tr": "No computer needed, and you won't have to re-download the app every week.",
+    "ru": "No computer needed, and you won't have to re-download the app every week."
+  },
+  "guide.ios.paid2.step1Title": {
+    "en": "Buying Certificate",
+    "tr": "Buying Certificate",
+    "ru": "Buying Certificate"
+  },
+  "guide.ios.paid2.step1Text": {
+    "en": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email).",
+    "tr": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email).",
+    "ru": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email)."
+  },
+  "guide.ios.paid2.step2Title": {
+    "en": "Installation",
+    "tr": "Installation",
+    "ru": "Installation"
+  },
+  "guide.ios.paid2.step2a": {
+    "en": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram.",
+    "tr": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram.",
+    "ru": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram."
+  },
+  "guide.ios.paid2.step2b": {
+    "en": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>.",
+    "tr": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>.",
+    "ru": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>."
+  },
+  "guide.ios.paid2.step2c": {
+    "en": "The bot will ask you for the required files. Send them one by one in the requested order.",
+    "tr": "The bot will ask you for the required files. Send them one by one in the requested order.",
+    "ru": "The bot will ask you for the required files. Send them one by one in the requested order."
+  },
+  "guide.ios.paid2.step2d": {
+    "en": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button.",
+    "tr": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button.",
+    "ru": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button."
+  },
+  "guide.ios.paid2.step2e": {
+    "en": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>.",
+    "tr": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>.",
+    "ru": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>."
+  },
+  "guide.ios.paid2.step2f": {
+    "en": "After a few more minutes, open the link provided by the bot in Safari to install the game.",
+    "tr": "After a few more minutes, open the link provided by the bot in Safari to install the game.",
+    "ru": "After a few more minutes, open the link provided by the bot in Safari to install the game."
+  },
+  "guide.ios.pc.warning1": {
+    "en": "Please note that for this guide you'll need a computer and a cable to connect your iPhone to it.",
+    "tr": "Bu yöntem için bir bilgisayara ve iPhone'unuzu ona bağlayacak bir kabloya ihtiyacınız olacağını lütfen unutmayın.",
+    "ru": "Обратите внимание: для этого способа понадобятся компьютер и кабель для подключения iPhone к нему."
+  },
+  "guide.ios.pc.warning2": {
+    "en": "If you see \"App no longer available\" after 7 days, reconnect your phone and repeat the installation via Sideloadly to refresh the license.",
+    "tr": "7 gün sonra \"Uygulama artık kullanılamıyor\" görürseniz, telefonunuzu tekrar bağlayıp Sideloadly ile kurulumu tekrarlayarak lisansı yenileyin.",
+    "ru": "Если через 7 дней появится \"Приложение больше недоступно\", снова подключите телефон и повторите установку через Sideloadly, чтобы обновить лицензию."
+  },
+  "guide.ios.pc.step1Title": {
+    "en": "Downloading IPA to PC",
+    "tr": "IPA'yı PC'ye İndirme",
+    "ru": "Скачивание IPA на ПК"
+  },
+  "guide.ios.pc.step1Text": {
+    "en": "Go to the channel where we store download files: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>. Find the file that ends with <strong>.ipa</strong> and download it.",
+    "tr": "Dosyaları paylaştığımız kanala gidin: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>. <strong>.ipa</strong> ile biten dosyayı bulup indirin.",
+    "ru": "Перейдите в канал, где мы храним файлы: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>. Найдите файл с расширением <strong>.ipa</strong> и скачайте его."
+  },
+  "guide.ios.pc.step2Title": {
+    "en": "Sideloadly Installation to PC",
+    "tr": "PC'ye Sideloadly ile Kurulum",
+    "ru": "Установка через Sideloadly на ПК"
+  },
+  "guide.ios.pc.step2a": {
+    "en": "Go to <a class=\"guide-link\" href=\"https://sideloadly.io/\" target=\"_blank\" rel=\"noopener\">sideloadly.io</a> and click Download. Open the .exe file and set it up.",
+    "tr": "<a class=\"guide-link\" href=\"https://sideloadly.io/\" target=\"_blank\" rel=\"noopener\">sideloadly.io</a> adresine gidip Download'a tıklayın. .exe dosyasını açıp kurun.",
+    "ru": "Перейдите на <a class=\"guide-link\" href=\"https://sideloadly.io/\" target=\"_blank\" rel=\"noopener\">sideloadly.io</a> и нажмите Download. Откройте .exe и установите."
+  },
+  "guide.ios.pc.step2b": {
+    "en": "Open Sideloadly.",
+    "tr": "Sideloadly'yi açın.",
+    "ru": "Откройте Sideloadly."
+  },
+  "guide.ios.pc.step2c": {
+    "en": "Connect your iPhone via USB.",
+    "tr": "iPhone'unuzu USB ile bağlayın.",
+    "ru": "Подключите iPhone по USB."
+  },
+  "guide.ios.pc.step2d": {
+    "en": "Select the downloaded .ipa file.",
+    "tr": "İndirdiğiniz .ipa dosyasını seçin.",
+    "ru": "Выберите скачанный .ipa файл."
+  },
+  "guide.ios.pc.step2e": {
+    "en": "Enter your Apple ID and sign in.",
+    "tr": "Apple ID'nizi girip giriş yapın.",
+    "ru": "Введите Apple ID и войдите."
+  },
+  "guide.ios.pc.step2f": {
+    "en": "Click <strong>Start</strong> to begin.",
+    "tr": "Başlamak için <strong>Start</strong>'a tıklayın.",
+    "ru": "Нажмите <strong>Start</strong>, чтобы начать."
+  },
+  "guide.ios.pc.step3Title": {
+    "en": "Finishing Installation",
+    "tr": "Kurulumu Tamamlama",
+    "ru": "Завершение установки"
+  },
+  "guide.ios.pc.step3Text1": {
+    "en": "On your iPhone you need to enable Developer Mode before launching.",
+    "tr": "iPhone'unuzda uygulamayı açmadan önce Geliştirici Modu'nu etkinleştirmeniz gerekir.",
+    "ru": "На iPhone перед запуском нужно включить режим разработчика."
+  },
+  "guide.ios.pc.step3Text2": {
+    "en": "Open <strong>Settings → Privacy &amp; Security → Developer Mode</strong>, toggle it On and restart.",
+    "tr": "<strong>Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu</strong>'na gidin, açık konuma getirip yeniden başlatın.",
+    "ru": "Откройте <strong>Настройки → Конфиденциальность и безопасность → Режим разработчика</strong>, включите его и перезагрузите."
+  },
+  "guide.ios.pc.step3Text3": {
+    "en": "After restarting, open <strong>Settings → General → VPN &amp; Device Management</strong>, select the profile associated with your Apple ID, tap Trust and confirm. The app will now launch.",
+    "tr": "Yeniden başlattıktan sonra <strong>Ayarlar → Genel → VPN ve Cihaz Yönetimi</strong>'ne gidin, Apple ID'nizle ilişkili profili seçin, Güven'e dokunup onaylayın. Uygulama artık açılacaktır.",
+    "ru": "После перезагрузки откройте <strong>Настройки → Основные → VPN и управление устройством</strong>, выберите профиль вашего Apple ID, нажмите «Доверять» и подтвердите. Приложение запустится."
+  },
+  "guide.ios.pc.troubleshootingTitle": {
+    "en": "Troubleshooting & Error Fixes",
+    "tr": "Sorun Giderme ve Hata Çözümleri",
+    "ru": "Устранение неполадок и ошибок"
+  },
+  "guide.ios.pc.troubleshooting1Title": {
+    "en": "Connection Troubleshooting (Driver Fix)",
+    "tr": "Bağlantı Sorunu (Sürücü Düzeltme)",
+    "ru": "Проблемы с подключением (исправление драйверов)"
+  },
+  "guide.ios.pc.troubleshooting1Intro": {
+    "en": "If Sideloadly shows \"No device selected\", install the correct drivers:",
+    "tr": "Sideloadly \"No device selected\" gösteriyorsa, doğru sürücüleri kurun:",
+    "ru": "Если Sideloadly показывает \"No device selected\", установите нужные драйверы:"
+  },
+  "guide.ios.pc.troubleshooting1a": {
+    "en": "Download <a class=\"guide-link\" href=\"https://www.3u.com/productswin\" target=\"_blank\" rel=\"noopener\">3uTools</a>",
+    "tr": "<a class=\"guide-link\" href=\"https://www.3u.com/productswin\" target=\"_blank\" rel=\"noopener\">3uTools</a>'u indirin",
+    "ru": "Скачайте <a class=\"guide-link\" href=\"https://www.3u.com/productswin\" target=\"_blank\" rel=\"noopener\">3uTools</a>"
+  },
+  "guide.ios.pc.troubleshooting1b": {
+    "en": "Install and open.",
+    "tr": "Kurun ve açın.",
+    "ru": "Установите и откройте."
+  },
+  "guide.ios.pc.troubleshooting1c": {
+    "en": "Click Repair Drivers.",
+    "tr": "Repair Drivers'a tıklayın.",
+    "ru": "Нажмите Repair Drivers."
+  },
+  "guide.ios.pc.troubleshooting1d": {
+    "en": "Re-open Sideloadly.",
+    "tr": "Sideloadly'yi tekrar açın.",
+    "ru": "Снова откройте Sideloadly."
+  },
+  "guide.ios.pc.troubleshooting2Title": {
+    "en": "Login Troubleshooting (Login Failed)",
+    "tr": "Giriş Sorunu (Login Failed)",
+    "ru": "Проблемы со входом (Login Failed)"
+  },
+  "guide.ios.pc.troubleshooting2Intro": {
+    "en": "\"Login Failed\" means a wrong Apple ID password. Reset it on your iPhone:",
+    "tr": "\"Login Failed\" yanlış Apple ID şifresi demektir. iPhone'unuzdan sıfırlayın:",
+    "ru": "\"Login Failed\" означает неверный пароль Apple ID. Сбросьте его на iPhone:"
+  },
+  "guide.ios.pc.troubleshooting2a": {
+    "en": "Settings → your name → <strong>Sign-In &amp; Security</strong>.",
+    "tr": "Ayarlar → adınız → <strong>Oturum Açma ve Güvenlik</strong>.",
+    "ru": "Настройки → ваше имя → <strong>Вход и безопасность</strong>."
+  },
+  "guide.ios.pc.troubleshooting2b": {
+    "en": "Tap Change Password and follow the steps.",
+    "tr": "Şifre Değiştir'e dokunup adımları izleyin.",
+    "ru": "Нажмите Change Password и следуйте шагам."
+  },
+  "guide.ios.pc.troubleshooting3Title": {
+    "en": "Account Troubleshooting (Xcode Error)",
+    "tr": "Hesap Sorunu (Xcode Hatası)",
+    "ru": "Проблемы с аккаунтом (ошибка Xcode)"
+  },
+  "guide.ios.pc.troubleshooting3Intro": {
+    "en": "An Xcode error means Parental Controls are enabled. Create a new Apple ID with age over 18:",
+    "tr": "Xcode hatası, Ebeveyn Denetimi'nin açık olduğu anlamına gelir. 18 yaş üstü yeni bir Apple ID oluşturun:",
+    "ru": "Ошибка Xcode означает, что включён родительский контроль. Создайте новый Apple ID с возрастом старше 18:"
+  },
+  "guide.ios.pc.troubleshooting3a": {
+    "en": "Settings → your name → <strong>Sign Out</strong>.",
+    "tr": "Ayarlar → adınız → <strong>Oturumu Kapat</strong>.",
+    "ru": "Настройки → ваше имя → <strong>Выйти</strong>."
+  },
+  "guide.ios.pc.troubleshooting3b": {
+    "en": "Sign in → Create new Apple ID → set birth date over 18.",
+    "tr": "Giriş yapın → Yeni Apple ID Oluştur → doğum tarihini 18 üstü ayarlayın.",
+    "ru": "Войти → Создать новый Apple ID → укажите дату рождения старше 18."
+  },
+  "guide.ios.pc.troubleshooting4Title": {
+    "en": "Invalid File Error",
+    "tr": "Geçersiz Dosya Hatası (Invalid File)",
+    "ru": "Ошибка Invalid File"
+  },
+  "guide.ios.pc.troubleshooting4Text": {
+    "en": "Click Start in Sideloadly multiple times, or try a different computer.",
+    "tr": "Sideloadly'de Start'a birkaç kez tıklayın veya farklı bir bilgisayar deneyin.",
+    "ru": "Нажмите Start в Sideloadly несколько раз или попробуйте другой компьютер."
+  },
+  "guide.ios.pc.troubleshooting5Title": {
+    "en": "Guru Meditation Error",
+    "tr": "Guru Meditation Hatası",
+    "ru": "Ошибка Guru Meditation"
+  },
+  "guide.ios.pc.troubleshooting5Text": {
+    "en": "This is a critical conflict. You must use a different computer.",
+    "tr": "Bu kritik bir çakışmadır. Farklı bir bilgisayar kullanmanız gerekir.",
+    "ru": "Это критический конфликт. Нужно использовать другой компьютер."
+  },
+  "guide.android.downloadTitle": {
+    "en": "Download APK File",
+    "tr": "APK Dosyasını İndir",
+    "ru": "Скачать APK-файл"
+  },
+  "guide.android.installTitle": {
+    "en": "Installation",
+    "tr": "Kurulum",
+    "ru": "Установка"
+  },
+  "guide.android.channel": {
+    "en": "Go to the channel where we store download files: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>",
+    "tr": "Dosyaları paylaştığımız kanala gidin: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>",
+    "ru": "Перейдите в канал, где мы храним файлы для загрузки: <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">t.me/talefiles</a>"
+  },
+  "guide.android.after1": {
+    "en": "After the file has downloaded, tap the file icon.",
+    "tr": "Dosya indikten sonra dosya simgesine dokunun.",
+    "ru": "После загрузки файла нажмите на значок файла."
+  },
+  "guide.android.after2": {
+    "en": "If prompted, allow installation from unknown sources, then tap Install and open the application.",
+    "tr": "İstenirse bilinmeyen kaynaklardan kuruluma izin verin, ardından Yükle'ye dokunup uygulamayı açın.",
+    "ru": "При запросе разрешите установку из неизвестных источников, затем нажмите «Установить» и откройте приложение."
+  }
+}

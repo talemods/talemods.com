@@ -1,0 +1,312 @@
+{
+  "header.marketplace": {
+    "en": "Open Marketplace",
+    "tr": "Mağazayı Aç",
+    "ru": "Открыть магазин"
+  },
+  "hero.subtitle": {
+    "en": "Next-level cheats with powerful features, seamless performance, easy setup, constant updates, and a large, active community behind it.",
+    "tr": "Güçlü özellikler, sorunsuz performans, kolay kurulum, sürekli güncellemeler ve arkasında büyük, aktif bir topluluk ile üst düzey hileler.",
+    "ru": "Читы нового уровня с мощными функциями, безупречной производительностью, простой установкой, постоянными обновлениями и большим активным сообществом."
+  },
+  "hero.callToAction": {
+    "en": "Our Products",
+    "tr": "Ürünlerimiz",
+    "ru": "Наши продукты"
+  },
+  "product.description": {
+    "en": "The ultimate Brawl Stars mod featuring <strong class=\"desc-feat\">Auto Dodge</strong>, <strong class=\"desc-feat\">X-Ray</strong>, <strong class=\"desc-feat\">Aim Bot</strong>, <strong class=\"desc-feat\">Auto Farm</strong>, <strong class=\"desc-feat\">Kill Aura</strong>, <strong class=\"desc-feat\">Skin Changer</strong> and more powerful features.",
+    "tr": "<strong class=\"desc-feat\">Auto Dodge</strong>, <strong class=\"desc-feat\">X-Ray</strong>, <strong class=\"desc-feat\">Aim Bot</strong>, <strong class=\"desc-feat\">Auto Farm</strong>, <strong class=\"desc-feat\">Kill Aura</strong>, <strong class=\"desc-feat\">Skin Changer</strong> ve daha fazla güçlü özellik içeren en iyi Brawl Stars modu.",
+    "ru": "Лучший мод для Brawl Stars с <strong class=\"desc-feat\">Auto Dodge</strong>, <strong class=\"desc-feat\">X-Ray</strong>, <strong class=\"desc-feat\">Aim Bot</strong>, <strong class=\"desc-feat\">Auto Farm</strong>, <strong class=\"desc-feat\">Kill Aura</strong>, <strong class=\"desc-feat\">Skin Changer</strong> и другими мощными функциями."
+  },
+  "product.descriptionFree": {
+    "en": "The free version of Tale Stars with <strong class=\"desc-feat\">Battle Server Changer</strong>, <strong class=\"desc-feat\">Name Changer</strong>, <strong class=\"desc-feat\">Battle Card Mod</strong>, <strong class=\"desc-feat\">Higher FPS</strong> and more basic features. Upgrade to Plus to unlock the full power.",
+    "tr": "Tale Stars'ın ücretsiz sürümü; <strong class=\"desc-feat\">Battle Server Changer</strong>, <strong class=\"desc-feat\">Name Changer</strong>, <strong class=\"desc-feat\">Battle Card Mod</strong>, <strong class=\"desc-feat\">Higher FPS</strong> ve daha fazla temel özellik içerir. Tüm gücü açmak için Plus'a yükseltin.",
+    "ru": "Бесплатная версия Tale Stars с <strong class=\"desc-feat\">Battle Server Changer</strong>, <strong class=\"desc-feat\">Name Changer</strong>, <strong class=\"desc-feat\">Battle Card Mod</strong>, <strong class=\"desc-feat\">Higher FPS</strong> и другими базовыми функциями. Перейдите на Plus, чтобы открыть всю мощь."
+  },
+  "button.download": {
+    "en": "Download",
+    "tr": "İndir",
+    "ru": "Скачать"
+  },
+  "button.buyPlus": {
+    "en": "Buy Plus",
+    "tr": "Plus Satın Al",
+    "ru": "Купить Plus"
+  },
+  "button.allFeatures": {
+    "en": "All Features",
+    "tr": "Tüm Özellikler",
+    "ru": "Все функции"
+  },
+  "button.plusFeatures": {
+    "en": "Plus Features",
+    "tr": "Plus Özellikleri",
+    "ru": "Plus функции"
+  },
+  "button.guides": {
+    "en": "Installation Guides",
+    "tr": "Kurulum Rehberleri",
+    "ru": "Руководства по установке"
+  },
+  "news.title": {
+    "en": "Latest Important News",
+    "tr": "Son Önemli Haberler",
+    "ru": "Последние важные новости"
+  },
+  "news.subtitle": {
+    "en": "Stay up to date with the latest announcements from our Telegram channel.",
+    "tr": "Telegram kanalımızdaki en son duyurulardan haberdar olun.",
+    "ru": "Будьте в курсе последних объявлений из нашего Telegram-канала."
+  },
+  "news.open": {
+    "en": "View on Telegram",
+    "tr": "Telegram'da Görüntüle",
+    "ru": "Открыть в Telegram"
+  },
+  "faq.title1": {
+    "en": "You ask? We",
+    "tr": "Sen sor? Biz",
+    "ru": "Вы спрашиваете? Мы"
+  },
+  "faq.title2": {
+    "en": "answer",
+    "tr": "cevaplayalım",
+    "ru": "отвечаем"
+  },
+  "faq.question1": {
+    "en": "Do the mods work on iOS",
+    "tr": "Modlar iOS'ta çalışıyor mu",
+    "ru": "Моды работают на iOS"
+  },
+  "faq.answer1": {
+    "en": "Yes, IPA files are available for supported mods. You can download and install them using your preferred sideloading method.",
+    "tr": "Evet, desteklenen modlar için IPA dosyaları mevcuttur. Tercih ettiğiniz sideloading yöntemiyle indirip kurabilirsiniz.",
+    "ru": "Да, для поддерживаемых модов доступны IPA-файлы. Вы можете скачать и установить их любым удобным способом."
+  },
+  "faq.iosGuideButton": {
+    "en": "Go to iOS Installation Guide",
+    "tr": "iOS Kurulum Rehberine Git",
+    "ru": "Перейти к руководству для iOS"
+  },
+  "faq.question2": {
+    "en": "Will I get banned",
+    "tr": "Ban riski var mı",
+    "ru": "Есть ли риск бана"
+  },
+  "faq.answer2": {
+    "en": "Our mods come with built-in protection, so the risk is very low. Only clearly visible features (like X-Ray Autoshoot) can get you reported by other players, so use those carefully.",
+    "tr": "Modlarımız yerleşik korumayla gelir, bu yüzden risk çok düşüktür. Yalnızca dışarıdan açıkça fark edilen özellikler (örneğin X-Ray Autoshoot) diğer oyuncular tarafından şikayet edilmenize yol açabilir, bu yüzden bunları dikkatli kullanın.",
+    "ru": "Наши моды имеют встроенную защиту, поэтому риск очень низкий. Лишь явно заметные функции (например, X-Ray Autoshoot) могут привести к жалобам от других игроков, поэтому используйте их осторожно."
+  },
+  "faq.question3": {
+    "en": "Who should I contact for support",
+    "tr": "Destek almak için kiminle görüşmeliyim",
+    "ru": "К кому обращаться за поддержкой"
+  },
+  "faq.answer3": {
+    "en": "You can reach our support team via our official Telegram support bot: <a href=\"https://t.me/TaleSupportBot\" target=\"_blank\">@TaleSupportBot</a>",
+    "tr": "Resmi Telegram destek botumuz ile destek ekibimizle iletişime geçebilirsiniz: <a href=\"https://t.me/TaleSupportBot\" target=\"_blank\">@TaleSupportBot</a>",
+    "ru": "Связаться с командой поддержки можно через нашего официального бота в Telegram: <a href=\"https://t.me/TaleSupportBot\" target=\"_blank\">@TaleSupportBot</a>"
+  },
+  "faq.question5": {
+    "en": "What payment methods are accepted",
+    "tr": "Hangi ödeme yöntemleri kabul ediliyor",
+    "ru": "Какие способы оплаты принимаются"
+  },
+  "faq.answer5": {
+    "en": "We accept payments via Telegram Stars and cryptocurrency through <a href=\"https://t.me/talepaybot\" target=\"_blank\">our bot</a>. All transactions are processed securely through Telegram's payment infrastructure.",
+    "tr": "<a href=\"https://t.me/talepaybot\" target=\"_blank\">Botumuz</a> aracılığıyla Telegram Stars ve kripto para ile ödeme kabul ediyoruz. Tüm işlemler Telegram'ın ödeme altyapısı üzerinden güvenli şekilde işlenir.",
+    "ru": "Мы принимаем оплату через Telegram Stars и криптовалюту через <a href=\"https://t.me/talepaybot\" target=\"_blank\">нашего бота</a>. Все транзакции обрабатываются безопасно через Telegram."
+  },
+  "nav.home": {
+    "en": "Home",
+    "tr": "Ana Sayfa",
+    "ru": "Главная"
+  },
+  "nav.features": {
+    "en": "Features",
+    "tr": "Özellikler",
+    "ru": "Функции"
+  },
+  "nav.guides": {
+    "en": "Guides",
+    "tr": "Rehberler",
+    "ru": "Руководства"
+  },
+  "footer.legal": {
+    "en": "Legal",
+    "tr": "Yasal",
+    "ru": "Правовое"
+  },
+  "footer.community": {
+    "en": "Community",
+    "tr": "Topluluk",
+    "ru": "Сообщество"
+  },
+  "footer.support": {
+    "en": "Support",
+    "tr": "Destek",
+    "ru": "Поддержка"
+  },
+  "footer.privacy": {
+    "en": "Privacy Policy",
+    "tr": "Gizlilik Politikası",
+    "ru": "Политика конфиденциальности"
+  },
+  "footer.termsOfService": {
+    "en": "Terms of Service",
+    "tr": "Kullanım Şartları",
+    "ru": "Условия использования"
+  },
+  "footer.copyright": {
+    "en": "© 2026 TaleMods. All rights reserved.",
+    "tr": "© 2026 TaleMods. Tüm hakları saklıdır.",
+    "ru": "© 2026 TaleMods. Все права защищены."
+  },
+  "footer.language": {
+    "en": "Language",
+    "tr": "Dil",
+    "ru": "Язык"
+  },
+  "features.back": {
+    "en": "Back",
+    "tr": "Geri",
+    "ru": "Назад"
+  },
+  "features.videos": {
+    "en": "Videos",
+    "tr": "Videolar",
+    "ru": "Видео"
+  },
+  "features.photos": {
+    "en": "Screenshots",
+    "tr": "Ekran Görüntüleri",
+    "ru": "Скриншоты"
+  },
+  "features.filterAll": {
+    "en": "All",
+    "tr": "Tümü",
+    "ru": "Все"
+  },
+  "features.filterGeneral": {
+    "en": "General",
+    "tr": "Genel",
+    "ru": "Общее"
+  },
+  "features.filterBattle": {
+    "en": "Battle",
+    "tr": "Maç",
+    "ru": "Бой"
+  },
+  "features.filterExploit": {
+    "en": "Exploit",
+    "tr": "Exploit",
+    "ru": "Эксплойт"
+  },
+  "features.filterVisual": {
+    "en": "Visual",
+    "tr": "Görsel",
+    "ru": "Визуальные"
+  },
+  "features.searchPlaceholder": {
+    "en": "Search mods...",
+    "tr": "Mod ara...",
+    "ru": "Поиск модов..."
+  },
+  "features.noResults": {
+    "en": "No mods found",
+    "tr": "Mod bulunamadı",
+    "ru": "Моды не найдены"
+  },
+  "features.share": {
+    "en": "Share",
+    "tr": "Paylaş",
+    "ru": "Поделиться"
+  },
+  "features.linkCopied": {
+    "en": "Link copied!",
+    "tr": "Link kopyalandı!",
+    "ru": "Ссылка скопирована!"
+  },
+  "features.watchVideo": {
+    "en": "Watch Video",
+    "tr": "Video İzle",
+    "ru": "Смотреть видео"
+  },
+  "features.viewPhoto": {
+    "en": "View Photo",
+    "tr": "Fotoğraf Gör",
+    "ru": "Смотреть фото"
+  },
+  "notFound.title": {
+    "en": "Page not found",
+    "tr": "Sayfa bulunamadı",
+    "ru": "Страница не найдена"
+  },
+  "notFound.message": {
+    "en": "The page you're looking for doesn't exist or may have been moved.",
+    "tr": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir.",
+    "ru": "Запрашиваемая страница не существует или была перемещена."
+  },
+  "notFound.home": {
+    "en": "Back to home",
+    "tr": "Ana sayfaya dön",
+    "ru": "На главную"
+  },
+  "nav.contribute": {
+    "en": "Contribute",
+    "tr": "Katkıda Bulun",
+    "ru": "Помочь"
+  },
+  "contribute.title": {
+    "en": "This website is open source",
+    "tr": "Bu web sitesi açık kaynak",
+    "ru": "Этот сайт с открытым исходным кодом"
+  },
+  "contribute.lead": {
+    "en": "The TaleMods website (not the mods or the products) is open source. The front end lives on GitHub, so anyone can read the code, report issues, and help make it better. Pick an area below to get started.",
+    "tr": "TaleMods web sitesi (modlar ya da ürünler değil) açık kaynak. Ön yüz GitHub'da; yani herkes kodu okuyabilir, hata bildirebilir ve daha iyi hâle getirmeye yardım edebilir. Başlamak için aşağıdan bir alan seç.",
+    "ru": "Сайт TaleMods (но не моды и не продукты) с открытым исходным кодом. Фронтенд лежит на GitHub, поэтому любой может изучить код, сообщить об ошибке и помочь сделать сайт лучше. Выберите область ниже, чтобы начать."
+  },
+  "contribute.repositoryButton": {
+    "en": "View on GitHub",
+    "tr": "GitHub'da Görüntüle",
+    "ru": "Открыть на GitHub"
+  },
+  "contribute.waysTitle": {
+    "en": "Ways to contribute",
+    "tr": "Nasıl katkı sağlayabilirsin",
+    "ru": "Как можно помочь"
+  },
+  "contribute.codeTitle": {
+    "en": "Code",
+    "tr": "Kod",
+    "ru": "Код"
+  },
+  "contribute.codeDescription": {
+    "en": "The site is plain HTML, CSS and JavaScript, with no framework and no build step. Fork the repository, make your change, and open a pull request. Bug fixes, performance tweaks, and new sections are all welcome.",
+    "tr": "Site düz HTML, CSS ve JavaScript; framework yok, build adımı yok. Depoyu fork'la, değişikliğini yap ve bir pull request aç. Hata düzeltmeleri, performans iyileştirmeleri ve yeni bölümler; hepsi memnuniyetle karşılanır.",
+    "ru": "Сайт написан на обычных HTML, CSS и JavaScript, без фреймворков и сборки. Сделайте форк репозитория, внесите изменения и откройте pull request. Исправления багов, оптимизации и новые разделы приветствуются."
+  },
+  "contribute.designTitle": {
+    "en": "Design",
+    "tr": "Tasarım",
+    "ru": "Дизайн"
+  },
+  "contribute.designDescription": {
+    "en": "Got an idea to make the interface better? Open an issue with a screenshot or mockup, or send a pull request.",
+    "tr": "Arayüzü daha iyi yapacak bir fikrin mi var? Ekran görüntüsü ya da taslakla bir issue aç veya pull request gönder.",
+    "ru": "Есть идея сделать интерфейс лучше? Откройте issue со скриншотом или макетом либо пришлите pull request."
+  },
+  "contribute.translateTitle": {
+    "en": "Translate",
+    "tr": "Çeviri",
+    "ru": "Перевод"
+  },
+  "contribute.translateDescription": {
+    "en": "Translations are simple JSON files in the i18n folder. To add a language, copy en.json, translate the values, and register it in languages.json. To fix an existing translation, just edit that language's file and open a pull request.",
+    "tr": "Çeviriler i18n klasöründeki basit JSON dosyaları. Bir dil eklemek için en.json'ı kopyala, değerleri çevir ve languages.json'a ekle. Mevcut bir çeviriyi düzeltmek için o dilin dosyasını düzenleyip pull request aç.",
+    "ru": "Переводы хранятся как простые JSON-файлы в папке i18n. Чтобы добавить язык, скопируйте en.json, переведите значения и добавьте язык в languages.json. Чтобы исправить существующий перевод, отредактируйте файл нужного языка и откройте pull request."
+  }
+}

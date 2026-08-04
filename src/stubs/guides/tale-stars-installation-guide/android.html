@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>TaleMods</title>
+<script>
+    try {
+        sessionStorage.setItem('redirectPath', location.pathname + location.search + location.hash);
+    } finally {
+        location.replace('/');
+    }
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/" /></noscript>
+</head>
+<body></body>
+</html>

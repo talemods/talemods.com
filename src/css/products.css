@@ -1,0 +1,402 @@
+.products-section {
+    position: relative;
+    z-index: 2;
+    padding: 40px 20px 60px;
+}
+
+.product-block {
+    --c-glass: #bbbbbc;
+    --c-light: #fff;
+    --glass-reflex-light: 0.3;
+
+    position: relative;
+    margin: 0 auto 40px;
+    max-width: 1100px;
+    padding: 40px;
+    border-radius: 28px;
+    background: color-mix(in srgb, var(--c-glass) 6%, transparent);
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    box-shadow:
+        inset 0 0 0 1px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 10%), transparent),
+        inset 1.8px 3px 0px -2px color-mix(in srgb, var(--c-light) calc(var(--glass-reflex-light) * 50%), transparent),
+        0 12px 40px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.product-block.visible {
+    animation: productSlideIn 0.8s ease-out forwards;
+}
+
+.product-block:nth-child(2).visible {
+    animation-delay: 0.15s;
+}
+
+@keyframes productSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-block-inner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.product-info-side {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.product-title {
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 42px);
+    margin-bottom: 14px;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.product-title-text {
+    background-image:
+        linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.95) 50%, transparent 62%),
+        linear-gradient(180deg, #ffffff, #ffffff);
+    background-size: 250% 100%, 100% 100%;
+    background-position: 200% 0, 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter:
+        drop-shadow(0.035em 0 0 rgba(74, 48, 4, 0)) drop-shadow(-0.035em 0 0 rgba(74, 48, 4, 0))
+        drop-shadow(0 -0.035em 0 rgba(74, 48, 4, 0)) drop-shadow(0 0.035em 0 rgba(74, 48, 4, 0))
+        drop-shadow(0 0.07em 0 rgba(74, 48, 4, 0));
+    transition: filter 0.5s ease;
+}
+
+#tale-stars.plus-mode .product-title-text {
+    background-image:
+        linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.95) 50%, transparent 62%),
+        linear-gradient(180deg, #ffffff 25%, #ffd970);
+    animation: buyLabelShine 3.2s ease-in-out infinite;
+    filter:
+        drop-shadow(0.035em 0 0 #4a3004) drop-shadow(-0.035em 0 0 #4a3004)
+        drop-shadow(0 -0.035em 0 #4a3004) drop-shadow(0 0.035em 0 #4a3004)
+        drop-shadow(0 0.07em 0 #4a3004);
+}
+
+.product-title-icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #2c2c2e, #222224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.08),
+        inset 0 -1px 1.5px rgba(0, 0, 0, 0.18),
+        0 4px 12px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
+}
+
+.product-title-icon-wrap img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.product-desc {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
+    margin-bottom: 16px;
+    max-width: 460px;
+}
+
+.product-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-actions .liquidButton {
+    padding: 12px 22px;
+    font-size: 14px;
+}
+
+.product-buy-btn {
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 205, 80, 0.32), rgba(255, 170, 30, 0.16)) !important;
+    backdrop-filter: blur(16px) saturate(150%);
+    -webkit-backdrop-filter: blur(16px) saturate(150%);
+    color: #fff !important;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    box-shadow:
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.15),
+        0 4px 16px rgba(0, 0, 0, 0.25) !important;
+    transition: transform 0.25s ease, box-shadow 0.35s ease, background 0.35s ease;
+}
+
+.product-buy-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(255, 217, 110, 0.9), rgba(255, 200, 80, 0.25) 50%, rgba(255, 201, 77, 0.8));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.product-buy-btn:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, rgba(255, 205, 80, 0.42), rgba(255, 170, 30, 0.24)) !important;
+    box-shadow:
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(255, 190, 60, 0.22),
+        0 6px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.product-buy-btn:active {
+    transform: translateY(0) scale(0.97);
+}
+
+.product-buy-btn .buy-label {
+    font-family: 'Lilita One', 'HarmonyOS Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    background-image:
+        linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.95) 50%, transparent 62%),
+        linear-gradient(180deg, #ffffff 25%, #ffd970);
+    background-size: 250% 100%, 100% 100%;
+    background-position: 200% 0, 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: buyLabelShine 3.2s ease-in-out infinite;
+    filter:
+        drop-shadow(1px 0 0 #4a3004) drop-shadow(-1px 0 0 #4a3004)
+        drop-shadow(0 -1px 0 #4a3004) drop-shadow(0 1px 0 #4a3004)
+        drop-shadow(0 2px 0 #4a3004);
+}
+
+@keyframes buyLabelShine {
+    0%, 55% { background-position: 200% 0, 0 0; }
+    100% { background-position: -100% 0, 0 0; }
+}
+
+.product-buy-btn .plus-glyph {
+    font-family: 'Lilita One', 'HarmonyOS Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    margin-top: -2px;
+    background-image:
+        linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.95) 50%, transparent 62%),
+        linear-gradient(180deg, #ffffff 25%, #ffd970);
+    background-size: 250% 100%, 100% 100%;
+    background-position: 200% 0, 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: buyLabelShine 3.2s ease-in-out infinite;
+    filter:
+        drop-shadow(1px 0 0 #4a3004) drop-shadow(-1px 0 0 #4a3004)
+        drop-shadow(0 -1px 0 #4a3004) drop-shadow(0 1px 0 #4a3004)
+        drop-shadow(0 2px 0 #4a3004);
+}
+
+#tale-stars.plus-mode .product-buy-btn {
+    order: -1;
+}
+
+#tale-stars .features-link-plus { display: none; }
+#tale-stars.plus-mode .features-link-plus { display: inline-flex; }
+#tale-stars.plus-mode .features-link-free { display: none; }
+
+#tale-stars.plus-mode {
+    background:
+        linear-gradient(135deg, rgba(255, 200, 80, 0.10), rgba(255, 170, 40, 0.04) 55%, rgba(255, 200, 80, 0.08)),
+        color-mix(in srgb, var(--c-glass) 4%, transparent);
+}
+
+#tale-stars::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow:
+        inset 0 0 0 1px rgba(255, 205, 90, 0.28),
+        0 0 36px rgba(255, 190, 60, 0.16);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#tale-stars.plus-mode::before {
+    opacity: 1;
+    animation: plusCardGlow 3.6s ease-in-out infinite;
+}
+
+@keyframes plusCardGlow {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+button.product-title-icon-wrap {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button.product-title-icon-wrap:hover {
+    transform: scale(1.08);
+}
+
+button.product-title-icon-wrap:active {
+    transform: scale(0.92);
+}
+
+#tale-stars .mode-icon-plus {
+    display: none;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#tale-stars.plus-mode .mode-icon-plus { display: block; }
+#tale-stars.plus-mode .mode-icon-free { display: none; }
+
+.product-title-plus {
+    display: none;
+    margin-left: 2px;
+}
+
+#tale-stars.plus-mode .product-title-plus { display: inline; }
+
+#tale-stars .product-desc { margin-bottom: 24px; }
+#tale-stars .product-desc-free { display: none; }
+#tale-stars:not(.plus-mode) .product-desc-plus { display: none; }
+
+#tale-stars:not(.plus-mode) .product-desc-free,
+#tale-stars.plus-mode .product-desc-plus {
+    display: block;
+    animation: descSwapIn 0.35s ease;
+}
+
+@keyframes descSwapIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.product-desc .desc-feat {
+    font-family: 'Inter', 'HarmonyOS Sans', sans-serif;
+    font-weight: 490;
+    font-variation-settings: 'wght' 490;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#tale-stars .product-desc-plus .desc-feat {
+    animation: descFeatBold 7.2s ease-in-out infinite;
+}
+
+#tale-stars .product-desc-plus .desc-feat:nth-of-type(2) { animation-delay: 1.2s; }
+#tale-stars .product-desc-plus .desc-feat:nth-of-type(3) { animation-delay: 2.4s; }
+#tale-stars .product-desc-plus .desc-feat:nth-of-type(4) { animation-delay: 3.6s; }
+#tale-stars .product-desc-plus .desc-feat:nth-of-type(5) { animation-delay: 4.8s; }
+#tale-stars .product-desc-plus .desc-feat:nth-of-type(6) { animation-delay: 6s; }
+
+@keyframes descFeatBold {
+    0%, 15%, 100% { font-variation-settings: 'wght' 490; }
+    4%, 10% { font-variation-settings: 'wght' 900; }
+}
+
+.guide-cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    z-index: 5;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.45s ease, visibility 0.45s;
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.6));
+    visibility: hidden;
+}
+
+.guide-cursor.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.guide-cursor::before {
+    content: '';
+    position: absolute;
+    inset: -14px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 200, 80, 0.35), transparent 70%);
+    animation: cursorHalo 1.5s ease-in-out infinite;
+}
+
+@keyframes cursorHalo {
+    0%, 100% { transform: scale(0.8); opacity: 0.6; }
+    50% { transform: scale(1.15); opacity: 1; }
+}
+
+.guide-cursor img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.15s ease;
+}
+
+.guide-cursor.clicking img {
+    transform: scale(0.78);
+}
+
+.guide-cursor::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 210, 100, 0.9);
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0.4);
+}
+
+.guide-cursor.clicking::after {
+    animation: cursorRipple 0.5s ease-out;
+}
+
+@keyframes cursorRipple {
+    0% { opacity: 0.9; transform: scale(0.4); }
+    100% { opacity: 0; transform: scale(2.2); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #tale-stars.plus-mode::before,
+    #tale-stars .product-desc-plus .desc-feat,
+    .product-buy-btn .buy-label,
+    .product-buy-btn .plus-glyph {
+        animation: none;
+    }
+}
