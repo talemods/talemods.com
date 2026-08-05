@@ -266,7 +266,7 @@
   },
   "contribute.lead": {
     "en": "The TaleMods website (not the mods or the products) is open source. The front end lives on GitHub, so anyone can read the code, report issues, and help make it better. Pick an area below to get started.",
-    "tr": "TaleMods web sitesi (modlar ya da ürünler değil) açık kaynak. Ön yüz GitHub'da; yani herkes kodu okuyabilir, hata bildirebilir ve daha iyi hâle getirmeye yardım edebilir. Başlamak için aşağıdan bir alan seç.",
+    "tr": "TaleMods web sitesi (modlar ya da ürünler değil) açık kaynaktır. Frontend GitHub'da bulunuyor yani herkes kodu okuyabilir, hata bildirebilir ve daha iyi hâle getirmeye yardım edebilir. Başlamak için aşağıdan bir alan seç.",
     "ru": "Сайт TaleMods (но не моды и не продукты) с открытым исходным кодом. Фронтенд лежит на GitHub, поэтому любой может изучить код, сообщить об ошибке и помочь сделать сайт лучше. Выберите область ниже, чтобы начать."
   },
   "contribute.repositoryButton": {
@@ -286,7 +286,7 @@
   },
   "contribute.codeDescription": {
     "en": "The site is plain HTML, CSS and JavaScript, with no framework and no build step. Fork the repository, make your change, and open a pull request. Bug fixes, performance tweaks, and new sections are all welcome.",
-    "tr": "Site düz HTML, CSS ve JavaScript; framework yok, build adımı yok. Depoyu fork'la, değişikliğini yap ve bir pull request aç. Hata düzeltmeleri, performans iyileştirmeleri ve yeni bölümler; hepsi memnuniyetle karşılanır.",
+    "tr": "Site düz HTML, CSS ve JavaScript; framework yok, build adımı yok. Repoyu fork'la, değişikliğini yap ve bir pull request aç. Hata düzeltmeleri, performans iyileştirmeleri ve yeni bölümler; hepsi memnuniyetle karşılanır.",
     "ru": "Сайт написан на обычных HTML, CSS и JavaScript, без фреймворков и сборки. Сделайте форк репозитория, внесите изменения и откройте pull request. Исправления багов, оптимизации и новые разделы приветствуются."
   },
   "contribute.designTitle": {
@@ -296,7 +296,7 @@
   },
   "contribute.designDescription": {
     "en": "Got an idea to make the interface better? Open an issue with a screenshot or mockup, or send a pull request.",
-    "tr": "Arayüzü daha iyi yapacak bir fikrin mi var? Ekran görüntüsü ya da taslakla bir issue aç veya pull request gönder.",
+    "tr": "Arayüzü daha iyi yapacak bir fikrin mi var? Ekran görüntüsü ya da örnekler ile bir issue veya pull request oluşturabilirsin.",
     "ru": "Есть идея сделать интерфейс лучше? Откройте issue со скриншотом или макетом либо пришлите pull request."
   },
   "contribute.translateTitle": {
@@ -306,7 +306,7 @@
   },
   "contribute.translateDescription": {
     "en": "Translations are simple JSON files in the i18n folder. To add a language, copy en.json, translate the values, and register it in languages.json. To fix an existing translation, just edit that language's file and open a pull request.",
-    "tr": "Çeviriler i18n klasöründeki basit JSON dosyaları. Bir dil eklemek için en.json'ı kopyala, değerleri çevir ve languages.json'a ekle. Mevcut bir çeviriyi düzeltmek için o dilin dosyasını düzenleyip pull request aç.",
+    "tr": "Çeviriler kodda i18n klasöründe JSON formatında bulunur. Bir dil eklemek için en.json'ı kopyala, yazıları çevir ve languages.json'a ekle. Mevcut bir çeviriyi düzeltmek için o dilin dosyasını düzenle. Bunları yaptıktan sonra pull request aç.",
     "ru": "Переводы хранятся как простые JSON-файлы в папке i18n. Чтобы добавить язык, скопируйте en.json, переведите значения и добавьте язык в languages.json. Чтобы исправить существующий перевод, отредактируйте файл нужного языка и откройте pull request."
   }
 }

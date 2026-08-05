@@ -141,58 +141,58 @@
   },
   "guide.ios.tabPaid2": {
     "en": "Paid Method 2",
-    "tr": "Paid Method 2",
-    "ru": "Paid Method 2"
+    "tr": "Ücretli Yöntem 2",
+    "ru": "Платный способ 2"
   },
   "guide.ios.paid2.intro": {
     "en": "No computer needed, and you won't have to re-download the app every week.",
-    "tr": "No computer needed, and you won't have to re-download the app every week.",
-    "ru": "No computer needed, and you won't have to re-download the app every week."
+    "tr": "Bilgisayar gerekmez ve uygulamayı her hafta tekrar indirmenize gerek kalmaz.",
+    "ru": "Компьютер не нужен, и не придётся переустанавливать приложение каждую неделю."
   },
   "guide.ios.paid2.step1Title": {
     "en": "Buying Certificate",
-    "tr": "Buying Certificate",
-    "ru": "Buying Certificate"
+    "tr": "Sertifika Satın Alma",
+    "ru": "Покупка сертификата"
   },
   "guide.ios.paid2.step1Text": {
     "en": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email).",
-    "tr": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email).",
-    "ru": "Go to <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> or another private certificate provider and buy one. After purchasing the certificate, save the <strong>.p12</strong>, <strong>.mobileprovision</strong>, and password files provided to you (AppleP12 sends these files by email)."
+    "tr": "<a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> adresine ya da başka bir özel sertifika sağlayıcısına gidip bir sertifika satın alın. Satın aldıktan sonra size verilen <strong>.p12</strong>, <strong>.mobileprovision</strong> ve şifre dosyalarını kaydedin (AppleP12 bu dosyaları e-posta ile gönderir).",
+    "ru": "Перейдите на <a class=\"guide-link\" href=\"https://applep12.com/\" target=\"_blank\" rel=\"noopener\">applep12.com</a> или к другому частному поставщику сертификатов и купите сертификат. После покупки сохраните переданные вам файлы <strong>.p12</strong>, <strong>.mobileprovision</strong> и пароль (AppleP12 присылает эти файлы по электронной почте)."
   },
   "guide.ios.paid2.step2Title": {
     "en": "Installation",
-    "tr": "Installation",
-    "ru": "Installation"
+    "tr": "Kurulum",
+    "ru": "Установка"
   },
   "guide.ios.paid2.step2a": {
     "en": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram.",
-    "tr": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram.",
-    "ru": "Go to the <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> bot on Telegram."
+    "tr": "Telegram'da <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> botuna gidin.",
+    "ru": "Перейдите к боту <a class=\"guide-link\" href=\"https://t.me/ipasignx\" target=\"_blank\" rel=\"noopener\">@ipasignx</a> в Telegram."
   },
   "guide.ios.paid2.step2b": {
     "en": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>.",
-    "tr": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>.",
-    "ru": "Type <strong>/start</strong>, tap <strong>Manage Certs</strong>, and then tap <strong>Add P12</strong>."
+    "tr": "<strong>/start</strong> yazın, <strong>Manage Certs</strong>'e dokunun, ardından <strong>Add P12</strong>'ye dokunun.",
+    "ru": "Введите <strong>/start</strong>, нажмите <strong>Manage Certs</strong>, затем нажмите <strong>Add P12</strong>."
   },
   "guide.ios.paid2.step2c": {
     "en": "The bot will ask you for the required files. Send them one by one in the requested order.",
-    "tr": "The bot will ask you for the required files. Send them one by one in the requested order.",
-    "ru": "The bot will ask you for the required files. Send them one by one in the requested order."
+    "tr": "Bot sizden gerekli dosyaları isteyecek. Bunları istenen sırayla tek tek gönderin.",
+    "ru": "Бот запросит нужные файлы. Отправляйте их по одному в указанном порядке."
   },
   "guide.ios.paid2.step2d": {
     "en": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button.",
-    "tr": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button.",
-    "ru": "Once the certificate has been added successfully, type <strong>/start</strong> again and tap the <strong>Sign IPA</strong> button."
+    "tr": "Sertifika başarıyla eklendikten sonra tekrar <strong>/start</strong> yazın ve <strong>Sign IPA</strong> düğmesine dokunun.",
+    "ru": "После успешного добавления сертификата снова введите <strong>/start</strong> и нажмите кнопку <strong>Sign IPA</strong>."
   },
   "guide.ios.paid2.step2e": {
     "en": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>.",
-    "tr": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>.",
-    "ru": "Send the <strong>Tale Stars IPA</strong> file to the bot (you can directly forward it from the <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> channel). The process may take a few minutes. When the menu appears, tap <strong>Start Signing</strong>."
+    "tr": "<strong>Tale Stars IPA</strong> dosyasını bota gönderin (doğrudan <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a> kanalından iletebilirsiniz). İşlem birkaç dakika sürebilir. Menü göründüğünde <strong>Start Signing</strong>'e dokunun.",
+    "ru": "Отправьте боту файл <strong>Tale Stars IPA</strong> (можно переслать прямо из канала <a class=\"guide-link\" href=\"https://t.me/talefiles\" target=\"_blank\" rel=\"noopener\">@talefiles</a>). Процесс может занять несколько минут. Когда появится меню, нажмите <strong>Start Signing</strong>."
   },
   "guide.ios.paid2.step2f": {
     "en": "After a few more minutes, open the link provided by the bot in Safari to install the game.",
-    "tr": "After a few more minutes, open the link provided by the bot in Safari to install the game.",
-    "ru": "After a few more minutes, open the link provided by the bot in Safari to install the game."
+    "tr": "Birkaç dakika daha sonra, oyunu kurmak için botun verdiği bağlantıyı Safari'de açın.",
+    "ru": "Ещё через несколько минут откройте ссылку от бота в Safari, чтобы установить игру."
   },
   "guide.ios.pc.warning1": {
     "en": "Please note that for this guide you'll need a computer and a cable to connect your iPhone to it.",
@@ -388,5 +388,25 @@
     "en": "If prompted, allow installation from unknown sources, then tap Install and open the application.",
     "tr": "İstenirse bilinmeyen kaynaklardan kuruluma izin verin, ardından Yükle'ye dokunup uygulamayı açın.",
     "ru": "При запросе разрешите установку из неизвестных источников, затем нажмите «Установить» и откройте приложение."
+  },
+  "guide.platform.yourDevice": {
+    "en": "Your device",
+    "tr": "Cihazınız",
+    "ru": "Ваше устройство"
+  },
+  "guide.platform.methodApk": {
+    "en": "Direct APK install",
+    "tr": "Doğrudan APK kurulumu",
+    "ru": "Прямая установка APK"
+  },
+  "guide.platform.methodSideload": {
+    "en": "Sideload (IPA)",
+    "tr": "Sideload (IPA)",
+    "ru": "Sideload (IPA)"
+  },
+  "guide.platform.methodEmulator": {
+    "en": "BlueStacks emulator",
+    "tr": "BlueStacks emülatörü",
+    "ru": "Эмулятор BlueStacks"
   }
 }
