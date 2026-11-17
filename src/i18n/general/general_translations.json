@@ -115,9 +115,9 @@
     "ru": "Какие способы оплаты принимаются"
   },
   "faq.answer5": {
-    "en": "We accept payments via Telegram Stars and cryptocurrency through <a href=\"https://t.me/talepaybot\" target=\"_blank\">our bot</a>. All transactions are processed securely through Telegram's payment infrastructure.",
-    "tr": "<a href=\"https://t.me/talepaybot\" target=\"_blank\">Botumuz</a> aracılığıyla Telegram Stars ve kripto para ile ödeme kabul ediyoruz. Tüm işlemler Telegram'ın ödeme altyapısı üzerinden güvenli şekilde işlenir.",
-    "ru": "Мы принимаем оплату через Telegram Stars и криптовалюту через <a href=\"https://t.me/talepaybot\" target=\"_blank\">нашего бота</a>. Все транзакции обрабатываются безопасно через Telegram."
+    "en": "We accept payments via Telegram Stars through <a href=\"https://t.me/talepaybot\" target=\"_blank\">our bot</a>. All transactions are processed securely through Telegram's payment infrastructure.",
+    "tr": "<a href=\"https://t.me/talepaybot\" target=\"_blank\">Botumuz</a> aracılığıyla Telegram Stars ile ödeme kabul ediyoruz. Tüm işlemler Telegram'ın ödeme altyapısı üzerinden güvenli şekilde işlenir.",
+    "ru": "Мы принимаем оплату через Telegram Stars. Все транзакции обрабатываются безопасно через Telegram."
   },
   "nav.home": {
     "en": "Home",
